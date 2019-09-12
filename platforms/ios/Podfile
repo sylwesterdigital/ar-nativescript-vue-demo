@@ -1,0 +1,32 @@
+use_frameworks!
+
+target "arvuedemo" do
+# NativeScriptPlatformSection /Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/tns-core-modules/platforms/ios/Podfile with 9.0
+platform :ios, '9.0'
+# End NativeScriptPlatformSection
+
+# Begin Podfile - /Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/tns-core-modules/platforms/ios/Podfile
+# platform :ios, '9.0'
+use_frameworks!
+
+pod 'MaterialComponents/Tabs', '~> 84.4'
+# End Podfile
+
+post_install do |installer|
+  post_installnativescript_ar_0 installer
+end
+
+# Begin Podfile - /Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/nativescript-ar/platforms/ios/Podfile
+pod 'ARVideoKit', :git => 'https://github.com/EddyVerbruggen/ARVideoKit.git', :branch => 'swift_4_2'
+
+def post_installnativescript_ar_0 (installer)
+  installer.pods_project.targets.each do |target|
+    if target.name == 'ARVideoKit'
+      target.build_configurations.each do |config|
+        config.build_settings['SWIFT_VERSION'] = '4.2'
+      end
+    end
+  end
+end
+# End Podfile
+end

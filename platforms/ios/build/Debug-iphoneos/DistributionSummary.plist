@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>arvuedemo.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>7A0C045A725F59091405DE642836C3DD66C8CE88</string>
+				<key>dateExpires</key>
+				<string>02/06/2020</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>7A0C045A725F59091405DE642836C3DD66C8CE88</string>
+						<key>dateExpires</key>
+						<string>02/06/2020</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>ARVideoKit.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>5P9V78UZAC</string>
+						<key>name</key>
+						<string>S Mielniczuk</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>7A0C045A725F59091405DE642836C3DD66C8CE88</string>
+						<key>dateExpires</key>
+						<string>02/06/2020</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>MDFInternationalization.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>5P9V78UZAC</string>
+						<key>name</key>
+						<string>S Mielniczuk</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>7A0C045A725F59091405DE642836C3DD66C8CE88</string>
+						<key>dateExpires</key>
+						<string>02/06/2020</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>MaterialComponents.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>5P9V78UZAC</string>
+						<key>name</key>
+						<string>S Mielniczuk</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>7A0C045A725F59091405DE642836C3DD66C8CE88</string>
+						<key>dateExpires</key>
+						<string>02/06/2020</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>NativeScript.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>5P9V78UZAC</string>
+						<key>name</key>
+						<string>S Mielniczuk</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>7A0C045A725F59091405DE642836C3DD66C8CE88</string>
+						<key>dateExpires</key>
+						<string>02/06/2020</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>TNSWidgets.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>5P9V78UZAC</string>
+						<key>name</key>
+						<string>S Mielniczuk</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>5P9V78UZAC.org.nativescript.arvuedemo</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>5P9V78UZAC</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>5P9V78UZAC.org.nativescript.arvuedemo</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>arvuedemo.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>5ff2f961-e63f-4300-b8ef-eff013ece088</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>5P9V78UZAC</string>
+				<key>name</key>
+				<string>S Mielniczuk</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

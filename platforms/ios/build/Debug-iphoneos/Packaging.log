@@ -1,0 +1,1210 @@
+2019-09-12 22:03:19 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f9bf0a52600; archive(resolved)='<IDEArchive: 0x7f9bf078e760>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7f9bede41440>', team(resolved)='<IDEProvisioningBasicTeam: 0x7f9bf09f8af0; teamID='5P9V78UZAC', teamName='S Mielniczuk'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f9bf0a52600; archive = '<IDEArchive: 0x7f9bf078e760>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9bede41440>', team='<IDEProvisioningBasicTeam: 0x7f9bf09f8af0; teamID='5P9V78UZAC', teamName='S Mielniczuk'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f9bf0a47bf0; archive = '<IDEArchive: 0x7f9bf078e760>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9bede41440>', team='<IDEProvisioningBasicTeam: 0x7f9bf09f8af0; teamID='5P9V78UZAC', teamName='S Mielniczuk'>'>
+	<IDEDistributionContext: 0x7f9bf0a492f0; archive = '<IDEArchive: 0x7f9bf078e760>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9bede41440>', team='<IDEProvisioningBasicTeam: 0x7f9bf09f8af0; teamID='5P9V78UZAC', teamName='S Mielniczuk'>'>
+	<IDEDistributionContext: 0x7f9bf0a15450; archive = '<IDEArchive: 0x7f9bf078e760>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9bede41440>', team='<IDEProvisioningBasicTeam: 0x7f9bf09f8af0; teamID='5P9V78UZAC', teamName='S Mielniczuk'>'>
+	<IDEDistributionContext: 0x7f9bf0b42bf0; archive = '<IDEArchive: 0x7f9bf078e760>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9bede41440>', team='<IDEProvisioningBasicTeam: 0x7f9bf09f8af0; teamID='5P9V78UZAC', teamName='S Mielniczuk'>'>
+	<IDEDistributionContext: 0x7f9bf0b40fa0; archive = '<IDEArchive: 0x7f9bf078e760>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9bede41440>', team='<IDEProvisioningBasicTeam: 0x7f9bf09f8af0; teamID='5P9V78UZAC', teamName='S Mielniczuk'>'>
+	<IDEDistributionContext: 0x7f9bf0b3a510; archive = '<IDEArchive: 0x7f9bf078e760>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9bede41440>', team='<IDEProvisioningBasicTeam: 0x7f9bf09f8af0; teamID='5P9V78UZAC', teamName='S Mielniczuk'>'>
+	<IDEDistributionContext: 0x7f9bf0a282f0; archive = '<IDEArchive: 0x7f9bf078e760>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9bede41440>', team='<IDEProvisioningBasicTeam: 0x7f9bf09f8af0; teamID='5P9V78UZAC', teamName='S Mielniczuk'>'>
+	<IDEDistributionContext: 0x7f9bf081ea60; archive = '<IDEArchive: 0x7f9bf078e760>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9bede41440>', team='<IDEProvisioningBasicTeam: 0x7f9bf09f8af0; teamID='5P9V78UZAC', teamName='S Mielniczuk'>'>
+	<IDEDistributionContext: 0x7f9bedf87bb0; archive = '<IDEArchive: 0x7f9bf078e760>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9bede41440>', team='(null)'>
+	<IDEDistributionContext: 0x7f9bf078eec0; archive = '<IDEArchive: 0x7f9bf078e760>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f9bf0a52600>
+2019-09-12 22:03:19 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2019-09-12 22:03:19 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2019-09-12 22:03:19 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app'
+2019-09-12 22:03:19 +0000  >>> Copying /Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app 
+2019-09-12 22:03:19 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-09-12 22:03:19 +0000  66956 bytes for ./_CodeSignature/CodeResources
+2019-09-12 22:03:19 +0000  copying file ./AppIcon20x20@2x.png ... 
+2019-09-12 22:03:19 +0000  2529 bytes for ./AppIcon20x20@2x.png
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/tree.dae ... 
+2019-09-12 22:03:19 +0000  305807 bytes for ./Models.scnassets/tree.dae
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/shader.dae ... 
+2019-09-12 22:03:19 +0000  93007 bytes for ./Models.scnassets/shader.dae
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/Car.dae ... 
+2019-09-12 22:03:19 +0000  556638 bytes for ./Models.scnassets/Car.dae
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/man.dae ... 
+2019-09-12 22:03:19 +0000  36471 bytes for ./Models.scnassets/man.dae
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/she.dae ... 
+2019-09-12 22:03:19 +0000  364687 bytes for ./Models.scnassets/she.dae
+copying file ./Models.scnassets/.DS_Store ... 
+2019-09-12 22:03:19 +0000  6148 bytes for ./Models.scnassets/.DS_Store
+copying file ./Models.scnassets/yellowcab2.dae ... 
+2019-09-12 22:03:19 +0000  1780011 bytes for ./Models.scnassets/yellowcab2.dae
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/untitled.dae ... 
+50140 bytes for ./Models.scnassets/untitled.dae
+copying file ./Models.scnassets/Monkey.dae ... 
+51020 bytes for ./Models.scnassets/Monkey.dae
+copying file ./Models.scnassets/Warehouse.dae ... 
+2019-09-12 22:03:19 +0000  9741 bytes for ./Models.scnassets/Warehouse.dae
+copying file ./Models.scnassets/fries.zip ... 
+2019-09-12 22:03:19 +0000  7167638 bytes for ./Models.scnassets/fries.zip
+copying file ./Models.scnassets/Malpa1.dae ... 
+2019-09-12 22:03:19 +0000  51020 bytes for ./Models.scnassets/Malpa1.dae
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/Gyro1.dae ... 
+2019-09-12 22:03:19 +0000  52847 bytes for ./Models.scnassets/Gyro1.dae
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/fries/fries.dae ... 
+2019-09-12 22:03:19 +0000  4965403 bytes for ./Models.scnassets/fries/fries.dae
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/fries/materials.mtl ... 
+153 bytes for ./Models.scnassets/fries/materials.mtl
+copying file ./Models.scnassets/fries/texture.jpg ... 
+2019-09-12 22:03:19 +0000  2208355 bytes for ./Models.scnassets/fries/texture.jpg
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/fries/fries.obj ... 
+2019-09-12 22:03:19 +0000  18850403 bytes for ./Models.scnassets/fries/fries.obj
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/car1.dae ... 
+2019-09-12 22:03:19 +0000  445115 bytes for ./Models.scnassets/car1.dae
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/plant.dae ... 
+27896 bytes for ./Models.scnassets/plant.dae
+copying file ./Models.scnassets/Mug.dae ... 
+2019-09-12 22:03:19 +0000  134514 bytes for ./Models.scnassets/Mug.dae
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/complex.dae ... 
+2019-09-12 22:03:19 +0000  9760 bytes for ./Models.scnassets/complex.dae
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/cunt1.dae ... 
+2019-09-12 22:03:19 +0000  51020 bytes for ./Models.scnassets/cunt1.dae
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/torus.dae ... 
+2019-09-12 22:03:19 +0000  47492 bytes for ./Models.scnassets/torus.dae
+2019-09-12 22:03:19 +0000  copying file ./Models.scnassets/cunt2.dae ... 
+2019-09-12 22:03:19 +0000  51020 bytes for ./Models.scnassets/cunt2.dae
+copying file ./Models.scnassets/yellowcab.dae ... 
+2019-09-12 22:03:19 +0000  1779830 bytes for ./Models.scnassets/yellowcab.dae
+2019-09-12 22:03:19 +0000  copying file ./en.lproj/InfoPlist.strings ... 
+42 bytes for ./en.lproj/InfoPlist.strings
+copying file ./app/runtime.js ... 
+2019-09-12 22:03:19 +0000  73086 bytes for ./app/runtime.js
+copying file ./app/bundle.js ... 
+2019-09-12 22:03:19 +0000  99132 bytes for ./app/bundle.js
+copying file ./app/vendor.js ... 
+2019-09-12 22:03:20 +0000  7851997 bytes for ./app/vendor.js
+copying file ./app/package.json ... 
+2019-09-12 22:03:20 +0000  112 bytes for ./app/package.json
+2019-09-12 22:03:20 +0000  copying file ./app/fonts/FontAwesome.ttf ... 
+2019-09-12 22:03:20 +0000  165548 bytes for ./app/fonts/FontAwesome.ttf
+2019-09-12 22:03:20 +0000  copying file ./app/tns_modules/tns-core-modules/inspector_modules.js ... 
+2019-09-12 22:03:20 +0000  663 bytes for ./app/tns_modules/tns-core-modules/inspector_modules.js
+2019-09-12 22:03:20 +0000  copying file ./AppIcon20x20@3x.png ... 
+2019-09-12 22:03:20 +0000  4036 bytes for ./AppIcon20x20@3x.png
+copying file ./AppIcon29x29.png ... 
+2019-09-12 22:03:20 +0000  1424 bytes for ./AppIcon29x29.png
+2019-09-12 22:03:20 +0000  copying file ./build.xcconfig ... 
+2019-09-12 22:03:20 +0000  450 bytes for ./build.xcconfig
+2019-09-12 22:03:20 +0000  copying file ./AppIcon60x60@2x.png ... 
+2019-09-12 22:03:20 +0000  5654 bytes for ./AppIcon60x60@2x.png
+2019-09-12 22:03:20 +0000  copying file ./AppIcon29x29@2x.png ... 
+2019-09-12 22:03:20 +0000  2495 bytes for ./AppIcon29x29@2x.png
+2019-09-12 22:03:20 +0000  copying file ./AppIcon40x40@3x.png ... 
+2019-09-12 22:03:20 +0000  5654 bytes for ./AppIcon40x40@3x.png
+2019-09-12 22:03:20 +0000  copying file ./AppIcon29x29~ipad.png ... 
+2019-09-12 22:03:20 +0000  1424 bytes for ./AppIcon29x29~ipad.png
+2019-09-12 22:03:20 +0000  copying file ./AppIcon40x40@2x.png ... 
+2019-09-12 22:03:20 +0000  4260 bytes for ./AppIcon40x40@2x.png
+2019-09-12 22:03:20 +0000  copying file ./AppIcon29x29@3x.png ... 
+2019-09-12 22:03:20 +0000  3794 bytes for ./AppIcon29x29@3x.png
+2019-09-12 22:03:20 +0000  copying file ./AppIcon60x60@3x.png ... 
+2019-09-12 22:03:20 +0000  7539 bytes for ./AppIcon60x60@3x.png
+2019-09-12 22:03:20 +0000  copying file ./Assets.car ... 
+2019-09-12 22:03:20 +0000  831448 bytes for ./Assets.car
+copying file ./AppIcon40x40@2x~ipad.png ... 
+2019-09-12 22:03:20 +0000  4260 bytes for ./AppIcon40x40@2x~ipad.png
+copying file ./AppIcon76x76@2x~ipad.png ... 
+7894 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
+9001 bytes for ./AppIcon83.5x83.5@2x~ipad.png
+2019-09-12 22:03:20 +0000  copying file ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-09-12 22:03:20 +0000  2611 bytes for ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2019-09-12 22:03:20 +0000  copying file ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-09-12 22:03:20 +0000  832 bytes for ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2019-09-12 22:03:20 +0000  copying file ./LaunchScreen.storyboardc/Info.plist ... 
+2019-09-12 22:03:20 +0000  258 bytes for ./LaunchScreen.storyboardc/Info.plist
+2019-09-12 22:03:20 +0000  copying file ./AppIcon29x29@2x~ipad.png ... 
+2019-09-12 22:03:20 +0000  2495 bytes for ./AppIcon29x29@2x~ipad.png
+2019-09-12 22:03:20 +0000  copying file ./AppIcon40x40~ipad.png ... 
+2019-09-12 22:03:20 +0000  2022 bytes for ./AppIcon40x40~ipad.png
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/libswiftPhotos.dylib ... 
+2019-09-12 22:03:20 +0000  336544 bytes for ./Frameworks/libswiftPhotos.dylib
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/libswiftSceneKit.dylib ... 
+2019-09-12 22:03:20 +0000  402048 bytes for ./Frameworks/libswiftSceneKit.dylib
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2019-09-12 22:03:20 +0000  335088 bytes for ./Frameworks/libswiftCoreImage.dylib
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2019-09-12 22:03:20 +0000  400128 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/libswiftCore.dylib ... 
+2019-09-12 22:03:20 +0000  23297568 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2019-09-12 22:03:20 +0000  857648 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+2019-09-12 22:03:20 +0000  655632 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+395712 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftCoreData.dylib ... 
+2019-09-12 22:03:20 +0000  468960 bytes for ./Frameworks/libswiftCoreData.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2019-09-12 22:03:20 +0000  1377376 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+2019-09-12 22:03:20 +0000  396976 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2019-09-12 22:03:20 +0000  335296 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/NativeScript.framework/_CodeSignature/CodeResources ... 
+2019-09-12 22:03:20 +0000  1798 bytes for ./Frameworks/NativeScript.framework/_CodeSignature/CodeResources
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/NativeScript.framework/NativeScript ... 
+2019-09-12 22:03:20 +0000  24374592 bytes for ./Frameworks/NativeScript.framework/NativeScript
+copying file ./Frameworks/NativeScript.framework/Info.plist ... 
+2019-09-12 22:03:20 +0000  761 bytes for ./Frameworks/NativeScript.framework/Info.plist
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+2019-09-12 22:03:20 +0000  499744 bytes for ./Frameworks/libswiftDarwin.dylib
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2019-09-12 22:03:20 +0000  338272 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/libswiftCoreAudio.dylib ... 
+2019-09-12 22:03:20 +0000  408608 bytes for ./Frameworks/libswiftCoreAudio.dylib
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/libswiftAVFoundation.dylib ... 
+2019-09-12 22:03:20 +0000  665936 bytes for ./Frameworks/libswiftAVFoundation.dylib
+copying file ./Frameworks/libswiftModelIO.dylib ... 
+2019-09-12 22:03:20 +0000  400736 bytes for ./Frameworks/libswiftModelIO.dylib
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/libswiftSpriteKit.dylib ... 
+2019-09-12 22:03:20 +0000  341984 bytes for ./Frameworks/libswiftSpriteKit.dylib
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/_CodeSignature/CodeResources ... 
+2019-09-12 22:03:20 +0000  29034 bytes for ./Frameworks/MaterialComponents.framework/_CodeSignature/CodeResources
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/de.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  392 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/de.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/he.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  399 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/he.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en_AU.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  380 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en_AU.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ar.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  406 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ar.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/el.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  395 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/el.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ja.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  380 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ja.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fa.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  387 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fa.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/iw.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  399 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/iw.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sq.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  384 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sq.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  380 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/uk.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  391 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/uk.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/es_419.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  387 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/es_419.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/es_MX.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  387 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/es_MX.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/zh_CN.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  398 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/zh_CN.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/nb.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  381 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/nb.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/es.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  385 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/es.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pt_BR.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  381 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pt_BR.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/da.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  381 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/da.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/it.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  383 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/it.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/bg.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  380 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/bg.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sk.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  382 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sk.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/kk.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  388 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/kk.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pt_PT.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  386 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pt_PT.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sr.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  393 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sr.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ms.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  386 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ms.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sv.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  381 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sv.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/cs.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  382 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/cs.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/km.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  393 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/km.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en_IN.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  380 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en_IN.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ko.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  390 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ko.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hy.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  396 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hy.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/mn.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  402 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/mn.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/no.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  381 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/no.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hu.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  381 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hu.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/zh_HK.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  398 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/zh_HK.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ka.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  407 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ka.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/tr.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  379 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/tr.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pl.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  381 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pl.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/zh_TW.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  398 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/zh_TW.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en_GB.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  380 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en_GB.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/vi.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  383 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/vi.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/lv.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  380 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/lv.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/lo.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  405 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/lo.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/lt.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  387 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/lt.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ru.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  393 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ru.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fr_CA.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  383 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fr_CA.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fr.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  386 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fr.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fi.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  384 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fi.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/id.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  382 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/id.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/nl.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  385 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/nl.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/th.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  396 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/th.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pt.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  381 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pt.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ro.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  383 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ro.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hr.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  384 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hr.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hi.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  400 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hi.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ca.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:20 +0000  382 bytes for ./Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ca.lproj/MaterialTabs.strings
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MaterialComponents.framework/MaterialComponents ... 
+2019-09-12 22:03:20 +0000  4336752 bytes for ./Frameworks/MaterialComponents.framework/MaterialComponents
+copying file ./Frameworks/MaterialComponents.framework/Info.plist ... 
+2019-09-12 22:03:20 +0000  758 bytes for ./Frameworks/MaterialComponents.framework/Info.plist
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2019-09-12 22:03:20 +0000  11552336 bytes for ./Frameworks/libswiftFoundation.dylib
+copying file ./Frameworks/libswiftCoreMedia.dylib ... 
+2019-09-12 22:03:20 +0000  400128 bytes for ./Frameworks/libswiftCoreMedia.dylib
+copying file ./Frameworks/libswiftCoreLocation.dylib ... 
+2019-09-12 22:03:20 +0000  401504 bytes for ./Frameworks/libswiftCoreLocation.dylib
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources ... 
+2019-09-12 22:03:20 +0000  3640 bytes for ./Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/TNSWidgets.framework/TNSWidgets ... 
+2019-09-12 22:03:20 +0000  231232 bytes for ./Frameworks/TNSWidgets.framework/TNSWidgets
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/TNSWidgets.framework/Headers/UIImage+TNSBlocks.h ... 
+2019-09-12 22:03:20 +0000  1049 bytes for ./Frameworks/TNSWidgets.framework/Headers/UIImage+TNSBlocks.h
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/TNSWidgets.framework/Headers/TNSWidgets.h ... 
+2019-09-12 22:03:20 +0000  616 bytes for ./Frameworks/TNSWidgets.framework/Headers/TNSWidgets.h
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/TNSWidgets.framework/Headers/TNSLabel.h ... 
+2019-09-12 22:03:20 +0000  293 bytes for ./Frameworks/TNSWidgets.framework/Headers/TNSLabel.h
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/TNSWidgets.framework/Headers/TNSProcess.h ... 
+2019-09-12 22:03:20 +0000  800 bytes for ./Frameworks/TNSWidgets.framework/Headers/TNSProcess.h
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/TNSWidgets.framework/Headers/UIView+PassThroughParent.h ... 
+2019-09-12 22:03:20 +0000  307 bytes for ./Frameworks/TNSWidgets.framework/Headers/UIView+PassThroughParent.h
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/TNSWidgets.framework/Modules/module.modulemap ... 
+2019-09-12 22:03:20 +0000  101 bytes for ./Frameworks/TNSWidgets.framework/Modules/module.modulemap
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/TNSWidgets.framework/Info.plist ... 
+2019-09-12 22:03:20 +0000  744 bytes for ./Frameworks/TNSWidgets.framework/Info.plist
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources ... 
+2019-09-12 22:03:20 +0000  1798 bytes for ./Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MDFInternationalization.framework/MDFInternationalization ... 
+2019-09-12 22:03:20 +0000  606656 bytes for ./Frameworks/MDFInternationalization.framework/MDFInternationalization
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/MDFInternationalization.framework/Info.plist ... 
+767 bytes for ./Frameworks/MDFInternationalization.framework/Info.plist
+copying file ./Frameworks/libswiftARKit.dylib ... 
+399056 bytes for ./Frameworks/libswiftARKit.dylib
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/libswiftSwiftOnoneSupport.dylib ... 
+2019-09-12 22:03:20 +0000  1610608 bytes for ./Frameworks/libswiftSwiftOnoneSupport.dylib
+copying file ./Frameworks/libswiftGLKit.dylib ... 
+2019-09-12 22:03:20 +0000  336320 bytes for ./Frameworks/libswiftGLKit.dylib
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/ARVideoKit.framework/_CodeSignature/CodeResources ... 
+2110 bytes for ./Frameworks/ARVideoKit.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/ARVideoKit.framework/ARVideoKit ... 
+2019-09-12 22:03:20 +0000  5743120 bytes for ./Frameworks/ARVideoKit.framework/ARVideoKit
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/ARVideoKit.framework/video.scnassets/vid.scn ... 
+2019-09-12 22:03:20 +0000  207740 bytes for ./Frameworks/ARVideoKit.framework/video.scnassets/vid.scn
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/ARVideoKit.framework/Info.plist ... 
+2019-09-12 22:03:20 +0000  739 bytes for ./Frameworks/ARVideoKit.framework/Info.plist
+2019-09-12 22:03:20 +0000  copying file ./Frameworks/libswiftsimd.dylib ... 
+2019-09-12 22:03:20 +0000  1323776 bytes for ./Frameworks/libswiftsimd.dylib
+2019-09-12 22:03:20 +0000  copying file ./AppIcon20x20~ipad.png ... 
+1042 bytes for ./AppIcon20x20~ipad.png
+copying file ./arvuedemo ... 
+2019-09-12 22:03:20 +0000  10662464 bytes for ./arvuedemo
+2019-09-12 22:03:20 +0000  copying file ./embedded.mobileprovision ... 
+2019-09-12 22:03:20 +0000  11654 bytes for ./embedded.mobileprovision
+2019-09-12 22:03:20 +0000  copying file ./AppIcon20x20@2x~ipad.png ... 
+2019-09-12 22:03:20 +0000  2529 bytes for ./AppIcon20x20@2x~ipad.png
+2019-09-12 22:03:20 +0000  copying file ./Info.plist ... 
+2019-09-12 22:03:20 +0000  1855 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2019-09-12 22:03:20 +0000  8 bytes for ./PkgInfo
+2019-09-12 22:03:20 +0000  copying file ./AppIcon76x76~ipad.png ... 
+2019-09-12 22:03:20 +0000  4005 bytes for ./AppIcon76x76~ipad.png
+2019-09-12 22:03:20 +0000 [MT] /usr/bin/ditto exited with 0
+2019-09-12 22:03:20 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf08ac2e0 'org.cocoapods.ARVideoKit' '<DVTFilePath:0x7f9bf083af90:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/ARVideoKit.framework'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf0983d50 'org.cocoapods.MDFInternationalization' '<DVTFilePath:0x7f9bf0937540:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/MDFInternationalization.framework'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf098b830 'org.cocoapods.MaterialComponents' '<DVTFilePath:0x7f9bf07f2e70:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/MaterialComponents.framework'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf08f4ff0 'org.nativescript.NativeScript' '<DVTFilePath:0x7f9bf07d8f60:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/NativeScript.framework'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf09a92f0 'org.nativescript.TNSWidgets' '<DVTFilePath:0x7f9bedfb2c80:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/TNSWidgets.framework'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf09588b0 'com.apple.dt.runtime.swiftARKit' '<DVTFilePath:0x7f9bf089b770:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftARKit.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf09cf800 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f9bf07ed290:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf094d2b0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9bf07d4330:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCore.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf08bf4d0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f9bf07ec910:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf0973840 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f9bf07d97f0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreData.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf097e840 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9bf07dd520:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf09c5ab0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9bf07d78f0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf08e9950 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9bf07cf050:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreImage.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf09d96b0 'com.apple.dt.runtime.swiftCoreLocation' '<DVTFilePath:0x7f9bedfae970:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreLocation.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf08dd320 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f9bedfad5b0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf09e5e30 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9bf07eaae0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftDarwin.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf09c6d10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9bf07da830:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftDispatch.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf0959b70 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9bedfaa380:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftFoundation.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf09e14f0 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7f9bf0839c20:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftGLKit.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf0a01ac0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9bf07d9100:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftMetal.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf09920d0 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7f9bf07f02e0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftModelIO.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf0956c40 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9bf07d2e60:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf09b5440 'com.apple.dt.runtime.swiftPhotos' '<DVTFilePath:0x7f9bedf958b0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftPhotos.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf094f2f0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9bf07eb7e0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf0967730 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7f9bf07a0a90:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftSceneKit.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf09488b0 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7f9bf07f23d0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftSpriteKit.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf08f9410 'com.apple.dt.runtime.swiftSwiftOnoneSupport' '<DVTFilePath:0x7f9bf08387c0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftSwiftOnoneSupport.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf09624f0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9bf07db510:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftUIKit.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf09a6410 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9bf07de2a0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftos.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f9bf08c0960 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f9bf0840e40:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftsimd.dylib'>'>
+2019-09-12 22:03:20 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2019-09-12 22:03:20 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-09-12 22:03:20 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2019-09-12 22:03:20 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-09-12 22:03:20 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2019-09-12 22:03:21 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2019-09-12 22:03:21 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2019-09-12 22:03:21 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/ARVideoKit.framework/ARVideoKit' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-09-12 22:03:21 +0000 [MT] Skipping architecture thinning for item "ARVideoKit" because arch "arm64e" wasn't found
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/MDFInternationalization.framework/MDFInternationalization' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-09-12 22:03:21 +0000 [MT] Skipping architecture thinning for item "MDFInternationalization" because arch "arm64e" wasn't found
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialComponents' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-09-12 22:03:21 +0000 [MT] Skipping architecture thinning for item "MaterialComponents" because arch "arm64e" wasn't found
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/NativeScript.framework/NativeScript' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-09-12 22:03:21 +0000 [MT] Skipping architecture thinning for item "NativeScript" because arch "arm64e" wasn't found
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/TNSWidgets' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-09-12 22:03:21 +0000 [MT] Skipping architecture thinning for item "TNSWidgets" because arch "arm64e" wasn't found
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftARKit.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftARKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftARKit.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftARKit.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftAVFoundation.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftAVFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftAVFoundation.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftAVFoundation.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCore.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreAudio.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreAudio.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreAudio.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftCoreAudio.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreData.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreData.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreData.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftCoreData.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreFoundation.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreGraphics.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreImage.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreImage.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftCoreImage.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreLocation.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreLocation.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreLocation.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftCoreLocation.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreMedia.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreMedia.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreMedia.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftCoreMedia.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftDarwin.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftDispatch.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftFoundation.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftGLKit.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftGLKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftGLKit.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftGLKit.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftMetal.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftMetal.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftMetal.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftModelIO.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftModelIO.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftModelIO.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftModelIO.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftObjectiveC.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftPhotos.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftPhotos.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftPhotos.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftPhotos.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftQuartzCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftQuartzCore.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftQuartzCore.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSceneKit.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSceneKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSceneKit.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftSceneKit.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSpriteKit.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSpriteKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSpriteKit.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftSpriteKit.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSwiftOnoneSupport.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSwiftOnoneSupport.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSwiftOnoneSupport.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftSwiftOnoneSupport.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftUIKit.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftUIKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftUIKit.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftUIKit.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftos.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftos.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftos.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftsimd.dylib' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftsimd.dylib' '-remove' 'arm64e' '-output' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftsimd.dylib'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-09-12 22:03:21 +0000 [MT] Successfully thinned item "libswiftsimd.dylib", arch "arm64e"
+2019-09-12 22:03:21 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/arvuedemo' '-verify_arch' 'arm64e'
+2019-09-12 22:03:21 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-09-12 22:03:21 +0000 [MT] Skipping architecture thinning for item "arvuedemo" because arch "arm64e" wasn't found
+2019-09-12 22:03:21 +0000 [MT] Processing step: IDEDistributionODRStep
+2019-09-12 22:03:21 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf08ac2e0 'org.cocoapods.ARVideoKit' '<DVTFilePath:0x7f9bf083af90:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/ARVideoKit.framework'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf0983d50 'org.cocoapods.MDFInternationalization' '<DVTFilePath:0x7f9bf0937540:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/MDFInternationalization.framework'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf098b830 'org.cocoapods.MaterialComponents' '<DVTFilePath:0x7f9bf07f2e70:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/MaterialComponents.framework'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf08f4ff0 'org.nativescript.NativeScript' '<DVTFilePath:0x7f9bf07d8f60:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/NativeScript.framework'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf09a92f0 'org.nativescript.TNSWidgets' '<DVTFilePath:0x7f9bedfb2c80:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/TNSWidgets.framework'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf09588b0 'com.apple.dt.runtime.swiftARKit' '<DVTFilePath:0x7f9bf089b770:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftARKit.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf09cf800 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f9bf07ed290:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf094d2b0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9bf07d4330:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCore.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf08bf4d0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f9bf07ec910:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf0973840 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f9bf07d97f0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreData.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf097e840 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9bf07dd520:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf09c5ab0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9bf07d78f0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf08e9950 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9bf07cf050:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreImage.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf09d96b0 'com.apple.dt.runtime.swiftCoreLocation' '<DVTFilePath:0x7f9bedfae970:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreLocation.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf08dd320 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f9bedfad5b0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf09e5e30 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9bf07eaae0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftDarwin.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf09c6d10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9bf07da830:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftDispatch.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf0959b70 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9bedfaa380:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftFoundation.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf09e14f0 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7f9bf0839c20:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftGLKit.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf0a01ac0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9bf07d9100:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftMetal.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf09920d0 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7f9bf07f02e0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftModelIO.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf0956c40 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9bf07d2e60:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf09b5440 'com.apple.dt.runtime.swiftPhotos' '<DVTFilePath:0x7f9bedf958b0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftPhotos.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf094f2f0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9bf07eb7e0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf0967730 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7f9bf07a0a90:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftSceneKit.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf09488b0 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7f9bf07f23d0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftSpriteKit.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf08f9410 'com.apple.dt.runtime.swiftSwiftOnoneSupport' '<DVTFilePath:0x7f9bf08387c0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftSwiftOnoneSupport.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf09624f0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9bf07db510:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftUIKit.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf09a6410 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9bf07de2a0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftos.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bf08c0960 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f9bf0840e40:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftsimd.dylib'>'>
+2019-09-12 22:03:21 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app'
+2019-09-12 22:03:22 +0000 [MT] /usr/bin/xattr exited with 0
+2019-09-12 22:03:22 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2019-09-12 22:03:22 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf08ac2e0 'org.cocoapods.ARVideoKit' '<DVTFilePath:0x7f9bf083af90:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/ARVideoKit.framework'>'>: {
+}
+2019-09-12 22:03:22 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf08ac2e0 'org.cocoapods.ARVideoKit' '<DVTFilePath:0x7f9bf083af90:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/ARVideoKit.framework'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~vzDCxE
+2019-09-12 22:03:22 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~vzDCxE' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/ARVideoKit.framework'
+2019-09-12 22:03:22 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/ARVideoKit.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.ARVideoKit]
+2019-09-12 22:03:22 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:22 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf0983d50 'org.cocoapods.MDFInternationalization' '<DVTFilePath:0x7f9bf0937540:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/MDFInternationalization.framework'>'>: {
+}
+2019-09-12 22:03:22 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf0983d50 'org.cocoapods.MDFInternationalization' '<DVTFilePath:0x7f9bf0937540:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/MDFInternationalization.framework'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~2yIIoZ
+2019-09-12 22:03:22 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~2yIIoZ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/MDFInternationalization.framework'
+2019-09-12 22:03:22 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/MDFInternationalization.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.MDFInternationalization]
+2019-09-12 22:03:22 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:22 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf098b830 'org.cocoapods.MaterialComponents' '<DVTFilePath:0x7f9bf07f2e70:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/MaterialComponents.framework'>'>: {
+}
+2019-09-12 22:03:22 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf098b830 'org.cocoapods.MaterialComponents' '<DVTFilePath:0x7f9bf07f2e70:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/MaterialComponents.framework'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~DTbDqq
+2019-09-12 22:03:22 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~DTbDqq' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/MaterialComponents.framework'
+2019-09-12 22:03:22 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/MaterialComponents.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.MaterialComponents]
+2019-09-12 22:03:22 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:22 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf08f4ff0 'org.nativescript.NativeScript' '<DVTFilePath:0x7f9bf07d8f60:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/NativeScript.framework'>'>: {
+}
+2019-09-12 22:03:22 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf08f4ff0 'org.nativescript.NativeScript' '<DVTFilePath:0x7f9bf07d8f60:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/NativeScript.framework'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~h5x51o
+2019-09-12 22:03:22 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~h5x51o' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/NativeScript.framework'
+2019-09-12 22:03:22 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/NativeScript.framework: replacing existing signature
+2019-09-12 22:03:23 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/NativeScript.framework: signed bundle with Mach-O universal (armv7 arm64) [org.nativescript.NativeScript]
+2019-09-12 22:03:23 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:23 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf09a92f0 'org.nativescript.TNSWidgets' '<DVTFilePath:0x7f9bedfb2c80:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/TNSWidgets.framework'>'>: {
+}
+2019-09-12 22:03:23 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf09a92f0 'org.nativescript.TNSWidgets' '<DVTFilePath:0x7f9bedfb2c80:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/TNSWidgets.framework'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~IMVuzo
+2019-09-12 22:03:23 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~IMVuzo' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/TNSWidgets.framework'
+2019-09-12 22:03:23 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/TNSWidgets.framework: signed bundle with Mach-O universal (armv7 arm64) [org.nativescript.TNSWidgets]
+2019-09-12 22:03:23 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:23 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf09588b0 'com.apple.dt.runtime.swiftARKit' '<DVTFilePath:0x7f9bf089b770:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftARKit.dylib'>'>: {
+}
+2019-09-12 22:03:23 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf09588b0 'com.apple.dt.runtime.swiftARKit' '<DVTFilePath:0x7f9bf089b770:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftARKit.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~CaKtmz
+2019-09-12 22:03:23 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~CaKtmz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftARKit.dylib'
+2019-09-12 22:03:23 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftARKit.dylib: replacing existing signature
+2019-09-12 22:03:23 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftARKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftARKit]
+2019-09-12 22:03:23 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:23 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf09cf800 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f9bf07ed290:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftAVFoundation.dylib'>'>: {
+}
+2019-09-12 22:03:23 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf09cf800 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f9bf07ed290:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftAVFoundation.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~albunT
+2019-09-12 22:03:23 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~albunT' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftAVFoundation.dylib'
+2019-09-12 22:03:23 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftAVFoundation.dylib: replacing existing signature
+2019-09-12 22:03:23 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftAVFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftAVFoundation]
+2019-09-12 22:03:23 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:23 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf094d2b0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9bf07d4330:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2019-09-12 22:03:23 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf094d2b0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9bf07d4330:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~1SDMex
+2019-09-12 22:03:23 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~1SDMex' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCore.dylib'
+2019-09-12 22:03:23 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2019-09-12 22:03:24 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2019-09-12 22:03:24 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:24 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf08bf4d0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f9bf07ec910:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreAudio.dylib'>'>: {
+}
+2019-09-12 22:03:24 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf08bf4d0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f9bf07ec910:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreAudio.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~nq43Hb
+2019-09-12 22:03:24 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~nq43Hb' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreAudio.dylib'
+2019-09-12 22:03:24 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreAudio.dylib: replacing existing signature
+2019-09-12 22:03:24 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreAudio.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreAudio]
+2019-09-12 22:03:24 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:24 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf0973840 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f9bf07d97f0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreData.dylib'>'>: {
+}
+2019-09-12 22:03:24 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf0973840 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f9bf07d97f0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreData.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~0wYfiG
+2019-09-12 22:03:24 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~0wYfiG' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreData.dylib'
+2019-09-12 22:03:24 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreData.dylib: replacing existing signature
+2019-09-12 22:03:24 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreData.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreData]
+2019-09-12 22:03:24 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:24 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf097e840 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9bf07dd520:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2019-09-12 22:03:24 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf097e840 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9bf07dd520:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~ZLeTXF
+2019-09-12 22:03:24 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~ZLeTXF' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreFoundation.dylib'
+2019-09-12 22:03:24 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2019-09-12 22:03:24 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2019-09-12 22:03:24 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:24 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf09c5ab0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9bf07d78f0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2019-09-12 22:03:24 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf09c5ab0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9bf07d78f0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~HVJiwx
+2019-09-12 22:03:24 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~HVJiwx' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreGraphics.dylib'
+2019-09-12 22:03:24 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2019-09-12 22:03:24 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2019-09-12 22:03:24 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:24 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf08e9950 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9bf07cf050:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2019-09-12 22:03:24 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf08e9950 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9bf07cf050:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~4o98WE
+2019-09-12 22:03:24 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~4o98WE' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreImage.dylib'
+2019-09-12 22:03:24 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2019-09-12 22:03:24 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2019-09-12 22:03:24 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:24 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf09d96b0 'com.apple.dt.runtime.swiftCoreLocation' '<DVTFilePath:0x7f9bedfae970:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreLocation.dylib'>'>: {
+}
+2019-09-12 22:03:24 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf09d96b0 'com.apple.dt.runtime.swiftCoreLocation' '<DVTFilePath:0x7f9bedfae970:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreLocation.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~dgqh7Z
+2019-09-12 22:03:24 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~dgqh7Z' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreLocation.dylib'
+2019-09-12 22:03:25 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreLocation.dylib: replacing existing signature
+2019-09-12 22:03:25 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreLocation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreLocation]
+2019-09-12 22:03:25 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:25 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf08dd320 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f9bedfad5b0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreMedia.dylib'>'>: {
+}
+2019-09-12 22:03:25 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf08dd320 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f9bedfad5b0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftCoreMedia.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~getRaK
+2019-09-12 22:03:25 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~getRaK' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreMedia.dylib'
+2019-09-12 22:03:25 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreMedia.dylib: replacing existing signature
+2019-09-12 22:03:25 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftCoreMedia.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreMedia]
+2019-09-12 22:03:25 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:25 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf09e5e30 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9bf07eaae0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2019-09-12 22:03:25 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf09e5e30 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9bf07eaae0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~qF5e6B
+2019-09-12 22:03:25 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~qF5e6B' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftDarwin.dylib'
+2019-09-12 22:03:25 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2019-09-12 22:03:25 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2019-09-12 22:03:25 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:25 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf09c6d10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9bf07da830:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2019-09-12 22:03:25 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf09c6d10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9bf07da830:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~xO8l6Z
+2019-09-12 22:03:25 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~xO8l6Z' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftDispatch.dylib'
+2019-09-12 22:03:25 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2019-09-12 22:03:25 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2019-09-12 22:03:25 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:25 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf0959b70 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9bedfaa380:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2019-09-12 22:03:25 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf0959b70 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9bedfaa380:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~IKobYN
+2019-09-12 22:03:25 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~IKobYN' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftFoundation.dylib'
+2019-09-12 22:03:25 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2019-09-12 22:03:25 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2019-09-12 22:03:25 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:25 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf09e14f0 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7f9bf0839c20:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftGLKit.dylib'>'>: {
+}
+2019-09-12 22:03:25 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf09e14f0 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7f9bf0839c20:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftGLKit.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~diCyYH
+2019-09-12 22:03:25 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~diCyYH' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftGLKit.dylib'
+2019-09-12 22:03:25 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftGLKit.dylib: replacing existing signature
+2019-09-12 22:03:26 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftGLKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftGLKit]
+2019-09-12 22:03:26 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:26 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf0a01ac0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9bf07d9100:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2019-09-12 22:03:26 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf0a01ac0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9bf07d9100:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~YRlY5L
+2019-09-12 22:03:26 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~YRlY5L' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftMetal.dylib'
+2019-09-12 22:03:26 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2019-09-12 22:03:26 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2019-09-12 22:03:26 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:26 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf09920d0 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7f9bf07f02e0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftModelIO.dylib'>'>: {
+}
+2019-09-12 22:03:26 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf09920d0 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7f9bf07f02e0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftModelIO.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~v4Xkqz
+2019-09-12 22:03:26 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~v4Xkqz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftModelIO.dylib'
+2019-09-12 22:03:26 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftModelIO.dylib: replacing existing signature
+2019-09-12 22:03:26 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftModelIO.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftModelIO]
+2019-09-12 22:03:26 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:26 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf0956c40 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9bf07d2e60:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2019-09-12 22:03:26 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf0956c40 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9bf07d2e60:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~mMq5az
+2019-09-12 22:03:26 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~mMq5az' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftObjectiveC.dylib'
+2019-09-12 22:03:26 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2019-09-12 22:03:26 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2019-09-12 22:03:26 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:26 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf09b5440 'com.apple.dt.runtime.swiftPhotos' '<DVTFilePath:0x7f9bedf958b0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftPhotos.dylib'>'>: {
+}
+2019-09-12 22:03:26 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf09b5440 'com.apple.dt.runtime.swiftPhotos' '<DVTFilePath:0x7f9bedf958b0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftPhotos.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~Ik81cn
+2019-09-12 22:03:26 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~Ik81cn' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftPhotos.dylib'
+2019-09-12 22:03:26 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftPhotos.dylib: replacing existing signature
+2019-09-12 22:03:26 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftPhotos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftPhotos]
+2019-09-12 22:03:26 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:26 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf094f2f0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9bf07eb7e0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2019-09-12 22:03:26 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf094f2f0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9bf07eb7e0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~yypQ6U
+2019-09-12 22:03:26 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~yypQ6U' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftQuartzCore.dylib'
+2019-09-12 22:03:26 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2019-09-12 22:03:26 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2019-09-12 22:03:26 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:26 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf0967730 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7f9bf07a0a90:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftSceneKit.dylib'>'>: {
+}
+2019-09-12 22:03:26 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf0967730 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7f9bf07a0a90:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftSceneKit.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~CUm8Y2
+2019-09-12 22:03:26 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~CUm8Y2' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSceneKit.dylib'
+2019-09-12 22:03:26 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSceneKit.dylib: replacing existing signature
+2019-09-12 22:03:27 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSceneKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftSceneKit]
+2019-09-12 22:03:27 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:27 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf09488b0 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7f9bf07f23d0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftSpriteKit.dylib'>'>: {
+}
+2019-09-12 22:03:27 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf09488b0 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7f9bf07f23d0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftSpriteKit.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~NNhQIP
+2019-09-12 22:03:27 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~NNhQIP' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSpriteKit.dylib'
+2019-09-12 22:03:27 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSpriteKit.dylib: replacing existing signature
+2019-09-12 22:03:27 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSpriteKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftSpriteKit]
+2019-09-12 22:03:27 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:27 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf08f9410 'com.apple.dt.runtime.swiftSwiftOnoneSupport' '<DVTFilePath:0x7f9bf08387c0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftSwiftOnoneSupport.dylib'>'>: {
+}
+2019-09-12 22:03:27 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf08f9410 'com.apple.dt.runtime.swiftSwiftOnoneSupport' '<DVTFilePath:0x7f9bf08387c0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftSwiftOnoneSupport.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~ccjQQH
+2019-09-12 22:03:27 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~ccjQQH' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSwiftOnoneSupport.dylib'
+2019-09-12 22:03:27 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSwiftOnoneSupport.dylib: replacing existing signature
+2019-09-12 22:03:27 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftSwiftOnoneSupport.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftSwiftOnoneSupport]
+2019-09-12 22:03:27 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:27 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf09624f0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9bf07db510:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2019-09-12 22:03:27 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf09624f0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9bf07db510:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~Ae6fdu
+2019-09-12 22:03:27 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~Ae6fdu' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftUIKit.dylib'
+2019-09-12 22:03:27 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2019-09-12 22:03:27 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2019-09-12 22:03:27 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:27 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf09a6410 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9bf07de2a0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2019-09-12 22:03:27 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf09a6410 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9bf07de2a0:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~EJK639
+2019-09-12 22:03:27 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~EJK639' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftos.dylib'
+2019-09-12 22:03:27 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftos.dylib: replacing existing signature
+2019-09-12 22:03:27 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2019-09-12 22:03:27 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:27 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf08c0960 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f9bf0840e40:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftsimd.dylib'>'>: {
+}
+2019-09-12 22:03:27 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf08c0960 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f9bf0840e40:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app/Frameworks/libswiftsimd.dylib'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~ZtLcl0
+2019-09-12 22:03:27 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~ZtLcl0' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftsimd.dylib'
+2019-09-12 22:03:27 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftsimd.dylib: replacing existing signature
+2019-09-12 22:03:27 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app/Frameworks/libswiftsimd.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftsimd]
+2019-09-12 22:03:27 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:27 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9bf0a12e50 'org.nativescript.arvuedemo' '<DVTFilePath:0x7f9bf078ea90:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app'>'>: {
+    "application-identifier" = "5P9V78UZAC.org.nativescript.arvuedemo";
+    "com.apple.developer.team-identifier" = 5P9V78UZAC;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "5P9V78UZAC.org.nativescript.arvuedemo"
+    );
+}
+2019-09-12 22:03:27 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9bf0a12e50 'org.nativescript.arvuedemo' '<DVTFilePath:0x7f9bf078ea90:'/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/build/Debug-iphoneos/arvuedemo.xcarchive/Products/Applications/arvuedemo.app'>'> to: /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~VHECKq
+2019-09-12 22:03:27 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A0C045A725F59091405DE642836C3DD66C8CE88' '--entitlements' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/entitlements~~~VHECKq' '--preserve-metadata=identifier,flags,runtime' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app'
+2019-09-12 22:03:27 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app: replacing existing signature
+2019-09-12 22:03:28 +0000  /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root/Payload/arvuedemo.app: signed app bundle with Mach-O universal (armv7 arm64) [org.nativescript.arvuedemo]
+2019-09-12 22:03:28 +0000 [MT] /usr/bin/codesign exited with 0
+2019-09-12 22:03:28 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-09-12 22:03:28 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2019-09-12 22:03:28 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root' '/var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Packages/arvuedemo.ipa'
+2019-09-12 22:03:28 +0000  >>> Copying /var/folders/m6/3gy_fdtx795fbqn26p8mc3z40000gn/T/XcodeDistPipeline.~~~Mr92cM/Root 
+2019-09-12 22:03:28 +0000  copying file ./Payload/arvuedemo.app/_CodeSignature/CodeResources ... 
+2019-09-12 22:03:28 +0000  66956 bytes for ./Payload/arvuedemo.app/_CodeSignature/CodeResources
+copying file ./Payload/arvuedemo.app/AppIcon20x20@2x.png ... 
+2019-09-12 22:03:28 +0000  2529 bytes for ./Payload/arvuedemo.app/AppIcon20x20@2x.png
+2019-09-12 22:03:28 +0000  copying file ./Payload/arvuedemo.app/Models.scnassets/tree.dae ... 
+2019-09-12 22:03:28 +0000  305807 bytes for ./Payload/arvuedemo.app/Models.scnassets/tree.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/shader.dae ... 
+2019-09-12 22:03:28 +0000  93007 bytes for ./Payload/arvuedemo.app/Models.scnassets/shader.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/Car.dae ... 
+2019-09-12 22:03:28 +0000  556638 bytes for ./Payload/arvuedemo.app/Models.scnassets/Car.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/man.dae ... 
+2019-09-12 22:03:28 +0000  36471 bytes for ./Payload/arvuedemo.app/Models.scnassets/man.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/she.dae ... 
+2019-09-12 22:03:28 +0000  364687 bytes for ./Payload/arvuedemo.app/Models.scnassets/she.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/.DS_Store ... 
+2019-09-12 22:03:28 +0000  6148 bytes for ./Payload/arvuedemo.app/Models.scnassets/.DS_Store
+copying file ./Payload/arvuedemo.app/Models.scnassets/yellowcab2.dae ... 
+2019-09-12 22:03:29 +0000  1780011 bytes for ./Payload/arvuedemo.app/Models.scnassets/yellowcab2.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/untitled.dae ... 
+2019-09-12 22:03:29 +0000  50140 bytes for ./Payload/arvuedemo.app/Models.scnassets/untitled.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/Monkey.dae ... 
+2019-09-12 22:03:29 +0000  51020 bytes for ./Payload/arvuedemo.app/Models.scnassets/Monkey.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/Warehouse.dae ... 
+2019-09-12 22:03:29 +0000  9741 bytes for ./Payload/arvuedemo.app/Models.scnassets/Warehouse.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/fries.zip ... 
+2019-09-12 22:03:29 +0000  7167638 bytes for ./Payload/arvuedemo.app/Models.scnassets/fries.zip
+copying file ./Payload/arvuedemo.app/Models.scnassets/Malpa1.dae ... 
+2019-09-12 22:03:29 +0000  51020 bytes for ./Payload/arvuedemo.app/Models.scnassets/Malpa1.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/Gyro1.dae ... 
+2019-09-12 22:03:29 +0000  52847 bytes for ./Payload/arvuedemo.app/Models.scnassets/Gyro1.dae
+2019-09-12 22:03:29 +0000  copying file ./Payload/arvuedemo.app/Models.scnassets/fries/fries.dae ... 
+2019-09-12 22:03:29 +0000  4965403 bytes for ./Payload/arvuedemo.app/Models.scnassets/fries/fries.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/fries/materials.mtl ... 
+2019-09-12 22:03:29 +0000  153 bytes for ./Payload/arvuedemo.app/Models.scnassets/fries/materials.mtl
+copying file ./Payload/arvuedemo.app/Models.scnassets/fries/texture.jpg ... 
+2019-09-12 22:03:29 +0000  2208355 bytes for ./Payload/arvuedemo.app/Models.scnassets/fries/texture.jpg
+copying file ./Payload/arvuedemo.app/Models.scnassets/fries/fries.obj ... 
+2019-09-12 22:03:31 +0000  18850403 bytes for ./Payload/arvuedemo.app/Models.scnassets/fries/fries.obj
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/Models.scnassets/car1.dae ... 
+2019-09-12 22:03:31 +0000  445115 bytes for ./Payload/arvuedemo.app/Models.scnassets/car1.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/plant.dae ... 
+2019-09-12 22:03:31 +0000  27896 bytes for ./Payload/arvuedemo.app/Models.scnassets/plant.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/Mug.dae ... 
+2019-09-12 22:03:31 +0000  134514 bytes for ./Payload/arvuedemo.app/Models.scnassets/Mug.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/complex.dae ... 
+2019-09-12 22:03:31 +0000  9760 bytes for ./Payload/arvuedemo.app/Models.scnassets/complex.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/cunt1.dae ... 
+2019-09-12 22:03:31 +0000  51020 bytes for ./Payload/arvuedemo.app/Models.scnassets/cunt1.dae
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/Models.scnassets/torus.dae ... 
+2019-09-12 22:03:31 +0000  47492 bytes for ./Payload/arvuedemo.app/Models.scnassets/torus.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/cunt2.dae ... 
+2019-09-12 22:03:31 +0000  51020 bytes for ./Payload/arvuedemo.app/Models.scnassets/cunt2.dae
+copying file ./Payload/arvuedemo.app/Models.scnassets/yellowcab.dae ... 
+2019-09-12 22:03:31 +0000  1779830 bytes for ./Payload/arvuedemo.app/Models.scnassets/yellowcab.dae
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/en.lproj/InfoPlist.strings ... 
+2019-09-12 22:03:31 +0000  42 bytes for ./Payload/arvuedemo.app/en.lproj/InfoPlist.strings
+copying file ./Payload/arvuedemo.app/app/runtime.js ... 
+2019-09-12 22:03:31 +0000  73086 bytes for ./Payload/arvuedemo.app/app/runtime.js
+copying file ./Payload/arvuedemo.app/app/bundle.js ... 
+2019-09-12 22:03:31 +0000  99132 bytes for ./Payload/arvuedemo.app/app/bundle.js
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/app/vendor.js ... 
+2019-09-12 22:03:31 +0000  7851997 bytes for ./Payload/arvuedemo.app/app/vendor.js
+copying file ./Payload/arvuedemo.app/app/package.json ... 
+2019-09-12 22:03:31 +0000  112 bytes for ./Payload/arvuedemo.app/app/package.json
+copying file ./Payload/arvuedemo.app/app/fonts/FontAwesome.ttf ... 
+2019-09-12 22:03:31 +0000  165548 bytes for ./Payload/arvuedemo.app/app/fonts/FontAwesome.ttf
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/app/tns_modules/tns-core-modules/inspector_modules.js ... 
+2019-09-12 22:03:31 +0000  663 bytes for ./Payload/arvuedemo.app/app/tns_modules/tns-core-modules/inspector_modules.js
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/AppIcon20x20@3x.png ... 
+2019-09-12 22:03:31 +0000  4036 bytes for ./Payload/arvuedemo.app/AppIcon20x20@3x.png
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/AppIcon29x29.png ... 
+2019-09-12 22:03:31 +0000  1424 bytes for ./Payload/arvuedemo.app/AppIcon29x29.png
+copying file ./Payload/arvuedemo.app/build.xcconfig ... 
+2019-09-12 22:03:31 +0000  450 bytes for ./Payload/arvuedemo.app/build.xcconfig
+copying file ./Payload/arvuedemo.app/AppIcon60x60@2x.png ... 
+2019-09-12 22:03:31 +0000  5654 bytes for ./Payload/arvuedemo.app/AppIcon60x60@2x.png
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/AppIcon29x29@2x.png ... 
+2019-09-12 22:03:31 +0000  2495 bytes for ./Payload/arvuedemo.app/AppIcon29x29@2x.png
+copying file ./Payload/arvuedemo.app/AppIcon40x40@3x.png ... 
+2019-09-12 22:03:31 +0000  5654 bytes for ./Payload/arvuedemo.app/AppIcon40x40@3x.png
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/AppIcon29x29~ipad.png ... 
+2019-09-12 22:03:31 +0000  1424 bytes for ./Payload/arvuedemo.app/AppIcon29x29~ipad.png
+copying file ./Payload/arvuedemo.app/AppIcon40x40@2x.png ... 
+2019-09-12 22:03:31 +0000  4260 bytes for ./Payload/arvuedemo.app/AppIcon40x40@2x.png
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/AppIcon29x29@3x.png ... 
+2019-09-12 22:03:31 +0000  3794 bytes for ./Payload/arvuedemo.app/AppIcon29x29@3x.png
+copying file ./Payload/arvuedemo.app/AppIcon60x60@3x.png ... 
+2019-09-12 22:03:31 +0000  7539 bytes for ./Payload/arvuedemo.app/AppIcon60x60@3x.png
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/Assets.car ... 
+2019-09-12 22:03:31 +0000  831448 bytes for ./Payload/arvuedemo.app/Assets.car
+copying file ./Payload/arvuedemo.app/AppIcon40x40@2x~ipad.png ... 
+2019-09-12 22:03:31 +0000  4260 bytes for ./Payload/arvuedemo.app/AppIcon40x40@2x~ipad.png
+copying file ./Payload/arvuedemo.app/AppIcon76x76@2x~ipad.png ... 
+2019-09-12 22:03:31 +0000  7894 bytes for ./Payload/arvuedemo.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/arvuedemo.app/AppIcon83.5x83.5@2x~ipad.png ... 
+2019-09-12 22:03:31 +0000  9001 bytes for ./Payload/arvuedemo.app/AppIcon83.5x83.5@2x~ipad.png
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-09-12 22:03:31 +0000  2611 bytes for ./Payload/arvuedemo.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-09-12 22:03:31 +0000  832 bytes for ./Payload/arvuedemo.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/arvuedemo.app/LaunchScreen.storyboardc/Info.plist ... 
+2019-09-12 22:03:31 +0000  258 bytes for ./Payload/arvuedemo.app/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/arvuedemo.app/AppIcon29x29@2x~ipad.png ... 
+2019-09-12 22:03:31 +0000  2495 bytes for ./Payload/arvuedemo.app/AppIcon29x29@2x~ipad.png
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/AppIcon40x40~ipad.png ... 
+2019-09-12 22:03:31 +0000  2022 bytes for ./Payload/arvuedemo.app/AppIcon40x40~ipad.png
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/Frameworks/libswiftPhotos.dylib ... 
+2019-09-12 22:03:31 +0000  255152 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftPhotos.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftSceneKit.dylib ... 
+2019-09-12 22:03:31 +0000  304576 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftSceneKit.dylib
+2019-09-12 22:03:31 +0000  copying file ./Payload/arvuedemo.app/Frameworks/libswiftCoreImage.dylib ... 
+2019-09-12 22:03:31 +0000  253648 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftObjectiveC.dylib ... 
+2019-09-12 22:03:31 +0000  302640 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftCore.dylib ... 
+2019-09-12 22:03:32 +0000  16915040 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2019-09-12 22:03:32 +0000  646848 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftUIKit.dylib ... 
+2019-09-12 22:03:32 +0000  477168 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftMetal.dylib ... 
+2019-09-12 22:03:32 +0000  298112 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftCoreData.dylib ... 
+2019-09-12 22:03:32 +0000  354944 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftCoreData.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftDispatch.dylib ... 
+2019-09-12 22:03:32 +0000  1018912 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftos.dylib ... 
+2019-09-12 22:03:32 +0000  299424 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftos.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2019-09-12 22:03:32 +0000  253792 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftCoreFoundation.dylib
+2019-09-12 22:03:32 +0000  copying file ./Payload/arvuedemo.app/Frameworks/NativeScript.framework/_CodeSignature/CodeResources ... 
+2019-09-12 22:03:32 +0000  1798 bytes for ./Payload/arvuedemo.app/Frameworks/NativeScript.framework/_CodeSignature/CodeResources
+2019-09-12 22:03:32 +0000  copying file ./Payload/arvuedemo.app/Frameworks/NativeScript.framework/NativeScript ... 
+2019-09-12 22:03:33 +0000  24374880 bytes for ./Payload/arvuedemo.app/Frameworks/NativeScript.framework/NativeScript
+copying file ./Payload/arvuedemo.app/Frameworks/NativeScript.framework/Info.plist ... 
+2019-09-12 22:03:33 +0000  761 bytes for ./Payload/arvuedemo.app/Frameworks/NativeScript.framework/Info.plist
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftDarwin.dylib ... 
+2019-09-12 22:03:33 +0000  369728 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftQuartzCore.dylib ... 
+2019-09-12 22:03:33 +0000  256864 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftCoreAudio.dylib ... 
+2019-09-12 22:03:33 +0000  311312 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftCoreAudio.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftAVFoundation.dylib ... 
+2019-09-12 22:03:33 +0000  503472 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftAVFoundation.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftModelIO.dylib ... 
+2019-09-12 22:03:33 +0000  303024 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftModelIO.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftSpriteKit.dylib ... 
+2019-09-12 22:03:33 +0000  260720 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftSpriteKit.dylib
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/_CodeSignature/CodeResources ... 
+2019-09-12 22:03:33 +0000  29034 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/_CodeSignature/CodeResources
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/de.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  392 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/de.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/he.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  399 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/he.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en_AU.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  380 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en_AU.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ar.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  406 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ar.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/el.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  395 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/el.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ja.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  380 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ja.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fa.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  387 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fa.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/iw.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  399 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/iw.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sq.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  384 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sq.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  380 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/uk.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  391 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/uk.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/es_419.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  387 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/es_419.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/es_MX.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  387 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/es_MX.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/zh_CN.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  398 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/zh_CN.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/nb.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  381 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/nb.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/es.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  385 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/es.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pt_BR.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  381 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pt_BR.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/da.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  381 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/da.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/it.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  383 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/it.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/bg.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  380 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/bg.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sk.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  382 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sk.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/kk.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  388 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/kk.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pt_PT.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  386 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pt_PT.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sr.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  393 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sr.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ms.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  386 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ms.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sv.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  381 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/sv.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/cs.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  382 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/cs.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/km.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  393 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/km.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en_IN.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  380 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en_IN.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ko.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  390 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ko.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hy.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  396 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hy.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/mn.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  402 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/mn.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/no.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  381 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/no.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hu.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  381 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hu.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/zh_HK.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  398 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/zh_HK.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ka.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  407 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ka.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/tr.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  379 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/tr.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pl.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  381 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pl.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/zh_TW.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  398 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/zh_TW.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en_GB.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  380 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/en_GB.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/vi.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  383 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/vi.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/lv.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  380 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/lv.lproj/MaterialTabs.strings
+copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/lo.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  405 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/lo.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/lt.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  387 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/lt.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ru.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  393 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ru.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fr_CA.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  383 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fr_CA.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fr.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  386 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fr.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fi.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  384 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/fi.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/id.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  382 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/id.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/nl.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  385 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/nl.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/th.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  396 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/th.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pt.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  381 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/pt.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ro.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  383 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ro.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hr.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  384 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hr.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hi.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  400 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/hi.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ca.lproj/MaterialTabs.strings ... 
+2019-09-12 22:03:33 +0000  382 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ca.lproj/MaterialTabs.strings
+2019-09-12 22:03:33 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialComponents ... 
+2019-09-12 22:03:33 +0000  1171360 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/MaterialComponents
+copying file ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/Info.plist ... 
+2019-09-12 22:03:33 +0000  758 bytes for ./Payload/arvuedemo.app/Frameworks/MaterialComponents.framework/Info.plist
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftFoundation.dylib ... 
+2019-09-12 22:03:34 +0000  8479552 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftFoundation.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftCoreMedia.dylib ... 
+2019-09-12 22:03:34 +0000  302656 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftCoreMedia.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftCoreLocation.dylib ... 
+2019-09-12 22:03:34 +0000  304128 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftCoreLocation.dylib
+2019-09-12 22:03:34 +0000  copying file ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources ... 
+2019-09-12 22:03:34 +0000  3640 bytes for ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources
+copying file ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/TNSWidgets ... 
+2019-09-12 22:03:34 +0000  198560 bytes for ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/TNSWidgets
+2019-09-12 22:03:34 +0000  copying file ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/Headers/UIImage+TNSBlocks.h ... 
+2019-09-12 22:03:34 +0000  1049 bytes for ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/Headers/UIImage+TNSBlocks.h
+copying file ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/Headers/TNSWidgets.h ... 
+2019-09-12 22:03:34 +0000  616 bytes for ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/Headers/TNSWidgets.h
+2019-09-12 22:03:34 +0000  copying file ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/Headers/TNSLabel.h ... 
+2019-09-12 22:03:34 +0000  293 bytes for ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/Headers/TNSLabel.h
+2019-09-12 22:03:34 +0000  copying file ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/Headers/TNSProcess.h ... 
+2019-09-12 22:03:34 +0000  800 bytes for ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/Headers/TNSProcess.h
+copying file ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/Headers/UIView+PassThroughParent.h ... 
+2019-09-12 22:03:34 +0000  307 bytes for ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/Headers/UIView+PassThroughParent.h
+2019-09-12 22:03:34 +0000  copying file ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/Modules/module.modulemap ... 
+2019-09-12 22:03:34 +0000  101 bytes for ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/Modules/module.modulemap
+copying file ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/Info.plist ... 
+2019-09-12 22:03:34 +0000  744 bytes for ./Payload/arvuedemo.app/Frameworks/TNSWidgets.framework/Info.plist
+2019-09-12 22:03:34 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources ... 
+2019-09-12 22:03:34 +0000  1798 bytes for ./Payload/arvuedemo.app/Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources
+2019-09-12 22:03:34 +0000  copying file ./Payload/arvuedemo.app/Frameworks/MDFInternationalization.framework/MDFInternationalization ... 
+2019-09-12 22:03:34 +0000  260816 bytes for ./Payload/arvuedemo.app/Frameworks/MDFInternationalization.framework/MDFInternationalization
+copying file ./Payload/arvuedemo.app/Frameworks/MDFInternationalization.framework/Info.plist ... 
+2019-09-12 22:03:34 +0000  767 bytes for ./Payload/arvuedemo.app/Frameworks/MDFInternationalization.framework/Info.plist
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftARKit.dylib ... 
+2019-09-12 22:03:34 +0000  301456 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftARKit.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftSwiftOnoneSupport.dylib ... 
+2019-09-12 22:03:34 +0000  1185184 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftSwiftOnoneSupport.dylib
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftGLKit.dylib ... 
+2019-09-12 22:03:34 +0000  254864 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftGLKit.dylib
+2019-09-12 22:03:34 +0000  copying file ./Payload/arvuedemo.app/Frameworks/ARVideoKit.framework/_CodeSignature/CodeResources ... 
+2019-09-12 22:03:34 +0000  2110 bytes for ./Payload/arvuedemo.app/Frameworks/ARVideoKit.framework/_CodeSignature/CodeResources
+2019-09-12 22:03:34 +0000  copying file ./Payload/arvuedemo.app/Frameworks/ARVideoKit.framework/ARVideoKit ... 
+2019-09-12 22:03:34 +0000  1853504 bytes for ./Payload/arvuedemo.app/Frameworks/ARVideoKit.framework/ARVideoKit
+2019-09-12 22:03:34 +0000  copying file ./Payload/arvuedemo.app/Frameworks/ARVideoKit.framework/video.scnassets/vid.scn ... 
+2019-09-12 22:03:34 +0000  207740 bytes for ./Payload/arvuedemo.app/Frameworks/ARVideoKit.framework/video.scnassets/vid.scn
+2019-09-12 22:03:34 +0000  copying file ./Payload/arvuedemo.app/Frameworks/ARVideoKit.framework/Info.plist ... 
+739 bytes for ./Payload/arvuedemo.app/Frameworks/ARVideoKit.framework/Info.plist
+copying file ./Payload/arvuedemo.app/Frameworks/libswiftsimd.dylib ... 
+2019-09-12 22:03:34 +0000  1013296 bytes for ./Payload/arvuedemo.app/Frameworks/libswiftsimd.dylib
+2019-09-12 22:03:34 +0000  copying file ./Payload/arvuedemo.app/AppIcon20x20~ipad.png ... 
+2019-09-12 22:03:34 +0000  1042 bytes for ./Payload/arvuedemo.app/AppIcon20x20~ipad.png
+copying file ./Payload/arvuedemo.app/arvuedemo ... 
+2019-09-12 22:03:35 +0000  10662464 bytes for ./Payload/arvuedemo.app/arvuedemo
+copying file ./Payload/arvuedemo.app/embedded.mobileprovision ... 
+2019-09-12 22:03:35 +0000  11654 bytes for ./Payload/arvuedemo.app/embedded.mobileprovision
+2019-09-12 22:03:35 +0000  copying file ./Payload/arvuedemo.app/AppIcon20x20@2x~ipad.png ... 
+2019-09-12 22:03:35 +0000  2529 bytes for ./Payload/arvuedemo.app/AppIcon20x20@2x~ipad.png
+2019-09-12 22:03:35 +0000  copying file ./Payload/arvuedemo.app/Info.plist ... 
+2019-09-12 22:03:35 +0000  1855 bytes for ./Payload/arvuedemo.app/Info.plist
+copying file ./Payload/arvuedemo.app/PkgInfo ... 
+2019-09-12 22:03:35 +0000  8 bytes for ./Payload/arvuedemo.app/PkgInfo
+2019-09-12 22:03:35 +0000  copying file ./Payload/arvuedemo.app/AppIcon76x76~ipad.png ... 
+2019-09-12 22:03:35 +0000  4005 bytes for ./Payload/arvuedemo.app/AppIcon76x76~ipad.png
+2019-09-12 22:03:35 +0000 [MT] /usr/bin/ditto exited with 0
+2019-09-12 22:03:35 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2019-09-12 22:03:35 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-09-12 22:03:35 +0000 [MT] Processing step: IDEDistributionCreateManifestStep

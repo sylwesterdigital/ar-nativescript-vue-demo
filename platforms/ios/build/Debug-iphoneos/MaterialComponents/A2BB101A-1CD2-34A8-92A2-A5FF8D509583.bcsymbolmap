@@ -1,0 +1,1227 @@
+BCSymbolMap Version: 2.0
++[CAMediaTimingFunction(MDCAnimationTiming) mdc_functionWithType:]
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/AnimationTiming/src/CAMediaTimingFunction+MDCAnimationTiming.m
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/Target Support Files/MaterialComponents/MaterialComponents-dummy.m
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/private/Math/src/MaterialMathDummy.m
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/ShadowElevations/src/MaterialShadowElevationsDummy.m
++[MDCFontScaler scalerForMaterialTextStyle:]
+-[MDCFontScaler initForMaterialTextStyle:]
+-[MDCFontScaler scaledFontWithFont:]
+-[MDCFontScaler scaledValueForValue:]
+-[MDCFontScaler description]
+-[MDCFontScaler .cxx_destruct]
+_OBJC_IVAR_$_MDCFontScaler._textStyle
+_OBJC_IVAR_$_MDCFontScaler._scalingCurve
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Typography/src/MDCFontScaler.m
++[MDCFontTraits initialize]
++[MDCFontTraits traitsWithPointSize:weight:leading:tracking:]
+-[MDCFontTraits initWithPointSize:weight:leading:tracking:]
++[MDCFontTraits traitsForTextStyle:sizeCategory:]
+-[MDCFontTraits pointSize]
+-[MDCFontTraits weight]
+-[MDCFontTraits leading]
+-[MDCFontTraits tracking]
+__body1Traits
+__body2Traits
+__buttonTraits
+__captionTraits
+__display1Traits
+__display2Traits
+__display3Traits
+__display4Traits
+__headlineTraits
+__subheadlineTraits
+__titleTraits
+__styleTable
+_OBJC_IVAR_$_MDCFontTraits._pointSize
+_OBJC_IVAR_$_MDCFontTraits._weight
+_OBJC_IVAR_$_MDCFontTraits._leading
+_OBJC_IVAR_$_MDCFontTraits._tracking
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Typography/src/private/MDCFontTraits.m
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Typography/src/private/MDCFontTraits.h
+-[MDCInkGestureRecognizer initWithTarget:action:]
+-[MDCInkGestureRecognizer touchStartLocationInView:]
+-[MDCInkGestureRecognizer touchesBegan:withEvent:]
+-[MDCInkGestureRecognizer touchesMoved:withEvent:]
+-[MDCInkGestureRecognizer touchesEnded:withEvent:]
+-[MDCInkGestureRecognizer touchesCancelled:withEvent:]
+-[MDCInkGestureRecognizer isTouchWithinTargetBounds]
+-[MDCInkGestureRecognizer effectiveTargetBounds]
+-[MDCInkGestureRecognizer dragCancelDistance]
+-[MDCInkGestureRecognizer setDragCancelDistance:]
+-[MDCInkGestureRecognizer cancelOnDragOut]
+-[MDCInkGestureRecognizer setCancelOnDragOut:]
+-[MDCInkGestureRecognizer targetBounds]
+-[MDCInkGestureRecognizer setTargetBounds:]
+_OBJC_IVAR_$_MDCInkGestureRecognizer._cancelOnDragOut
+_OBJC_IVAR_$_MDCInkGestureRecognizer._dragCancelDistance
+_OBJC_IVAR_$_MDCInkGestureRecognizer._targetBounds
+_OBJC_IVAR_$_MDCInkGestureRecognizer._touchStartLocation
+_OBJC_IVAR_$_MDCInkGestureRecognizer._touchCurrentLocation
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Ink/src/MDCInkGestureRecognizer.m
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Ink/src/MDCInkGestureRecognizer.h
+-[MDCInkLayer init]
+-[MDCInkLayer initWithLayer:]
+-[MDCInkLayer initWithCoder:]
+-[MDCInkLayer setNeedsLayout]
+-[MDCInkLayer setRadiiWithRect:]
+_MDCHypot
+-[MDCInkLayer startAnimationAtPoint:]
+-[MDCInkLayer startInkAtPoint:animated:]
+_CGRectMake
+_CGPointMake
+___40-[MDCInkLayer startInkAtPoint:animated:]_block_invoke
+___copy_helper_block_e4_20s
+___destroy_helper_block_e4_20s
+-[MDCInkLayer changeAnimationAtPoint:]
+-[MDCInkLayer endAnimationAtPoint:]
+-[MDCInkLayer endInkAtPoint:animated:]
+___38-[MDCInkLayer endInkAtPoint:animated:]_block_invoke
+-[MDCInkLayer animationDelegate]
+-[MDCInkLayer setAnimationDelegate:]
+-[MDCInkLayer isStartAnimationActive]
+-[MDCInkLayer endAnimationDelay]
+-[MDCInkLayer setEndAnimationDelay:]
+-[MDCInkLayer finalRadius]
+-[MDCInkLayer setFinalRadius:]
+-[MDCInkLayer initialRadius]
+-[MDCInkLayer setInitialRadius:]
+-[MDCInkLayer maxRippleRadius]
+-[MDCInkLayer setMaxRippleRadius:]
+-[MDCInkLayer inkColor]
+-[MDCInkLayer setInkColor:]
+-[MDCInkLayer .cxx_destruct]
+_MDCInkLayerOpacityString
+_MDCInkLayerPositionString
+_MDCInkLayerScaleString
+_OBJC_IVAR_$_MDCInkLayer._inkColor
+_OBJC_IVAR_$_MDCInkLayer._endAnimationDelay
+_OBJC_IVAR_$_MDCInkLayer._finalRadius
+_OBJC_IVAR_$_MDCInkLayer._initialRadius
+_OBJC_IVAR_$_MDCInkLayer._startAnimationActive
+_OBJC_IVAR_$_MDCInkLayer._maxRippleRadius
+_MDCInkLayerStartScalePositionDuration
+_MDCInkLayerCommonDuration
+___block_descriptor_24_e4_20s_e5_v4@?0l
+_MDCInkLayerStartFadeHalfBeginTimeFadeOutDuration
+_MDCInkLayerEndFadeOutDuration
+_OBJC_IVAR_$_MDCInkLayer._animationDelegate
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Ink/src/private/MDCInkLayer.m
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Ink/src/private/MDCInkLayer.h
+__38-[MDCInkLayer endInkAtPoint:animated:]_block_invoke
+__destroy_helper_block_e4_20s
+__copy_helper_block_e4_20s
+__40-[MDCInkLayer startInkAtPoint:animated:]_block_invoke
+CGPointMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+CGRectMake
+MDCHypot
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/private/Math/src/MDCMath.h
+-[MDCInkTouchController dragCancelDistance]
+-[MDCInkTouchController setDragCancelDistance:]
+-[MDCInkTouchController cancelsOnDragOut]
+-[MDCInkTouchController setCancelsOnDragOut:]
+-[MDCInkTouchController targetBounds]
+-[MDCInkTouchController setTargetBounds:]
+-[MDCInkTouchController initWithView:]
+-[MDCInkTouchController dealloc]
+-[MDCInkTouchController addInkView]
+-[MDCInkTouchController cancelInkTouchProcessing]
+-[MDCInkTouchController inkViewAtTouchLocation:]
+-[MDCInkTouchController handleInkGesture:]
+___42-[MDCInkTouchController handleInkGesture:]_block_invoke
+___copy_helper_block_e4_20s24s
+___destroy_helper_block_e4_20s24s
+___CGPointEqualToPoint
+-[MDCInkTouchController cancelInkGestureWithRecognizer:]
+-[MDCInkTouchController touchBeganAtPoint:touchLocation:]
+-[MDCInkTouchController gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+-[MDCInkTouchController gestureRecognizerShouldBegin:]
+-[MDCInkTouchController gestureRecognizer:shouldRequireFailureOfGestureRecognizer:]
+-[MDCInkTouchController inkView]
+-[MDCInkTouchController view]
+-[MDCInkTouchController defaultInkView]
+-[MDCInkTouchController setDefaultInkView:]
+-[MDCInkTouchController delegate]
+-[MDCInkTouchController setDelegate:]
+-[MDCInkTouchController delaysInkSpread]
+-[MDCInkTouchController setDelaysInkSpread:]
+-[MDCInkTouchController requiresFailureOfScrollViewGestures]
+-[MDCInkTouchController setRequiresFailureOfScrollViewGestures:]
+-[MDCInkTouchController gestureRecognizer]
+-[MDCInkTouchController addedInkView]
+-[MDCInkTouchController setAddedInkView:]
+-[MDCInkTouchController shouldRespondToTouch]
+-[MDCInkTouchController setShouldRespondToTouch:]
+-[MDCInkTouchController previousLocation]
+-[MDCInkTouchController setPreviousLocation:]
+-[MDCInkTouchController .cxx_destruct]
+_OBJC_IVAR_$_MDCInkTouchController._gestureRecognizer
+_OBJC_IVAR_$_MDCInkTouchController._requiresFailureOfScrollViewGestures
+_OBJC_IVAR_$_MDCInkTouchController._view
+_OBJC_IVAR_$_MDCInkTouchController._defaultInkView
+_OBJC_IVAR_$_MDCInkTouchController._delegate
+_OBJC_IVAR_$_MDCInkTouchController._addedInkView
+_OBJC_IVAR_$_MDCInkTouchController._shouldRespondToTouch
+_OBJC_IVAR_$_MDCInkTouchController._delaysInkSpread
+___block_descriptor_36_e4_20s24s_e5_v4@?0l
+_OBJC_IVAR_$_MDCInkTouchController._previousLocation
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Ink/src/MDCInkTouchController.m
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Ink/src/MDCInkTouchController.h
+__CGPointEqualToPoint
+__destroy_helper_block_e4_20s24s
+__copy_helper_block_e4_20s24s
+__42-[MDCInkTouchController handleInkGesture:]_block_invoke
+dispatch_get_main_queue
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/dispatch/queue.h
++[MDCInkView layerClass]
+-[MDCInkView initWithFrame:]
+-[MDCInkView initWithCoder:]
+-[MDCInkView commonMDCInkViewInit]
+-[MDCInkView layoutSubviews]
+-[MDCInkView setInkStyle:]
+-[MDCInkView setInkColor:]
+-[MDCInkView inkColor]
+-[MDCInkView maxRippleRadius]
+-[MDCInkView setMaxRippleRadius:]
+_MDCCGFloatEqual
+-[MDCInkView usesCustomInkCenter]
+-[MDCInkView setUsesCustomInkCenter:]
+-[MDCInkView customInkCenter]
+-[MDCInkView setCustomInkCenter:]
+-[MDCInkView inkLayer]
+-[MDCInkView startTouchBeganAnimationAtPoint:completion:]
+-[MDCInkView startTouchBeganAtPoint:animated:withCompletion:]
+-[MDCInkView startTouchEndAtPoint:animated:withCompletion:]
+-[MDCInkView startTouchEndedAnimationAtPoint:completion:]
+-[MDCInkView cancelAllAnimationsAnimated:]
+-[MDCInkView defaultInkColor]
++[MDCInkView injectedInkViewForView:]
+-[MDCInkView legacyInkLayerAnimationDidStart:]
+-[MDCInkView legacyInkLayerAnimationDidEnd:]
+-[MDCInkView inkLayerAnimationDidStart:]
+-[MDCInkView inkLayerAnimationDidEnd:]
+-[MDCInkView actionForLayer:forKey:]
+-[MDCInkView animationDelegate]
+-[MDCInkView setAnimationDelegate:]
+-[MDCInkView inkStyle]
+-[MDCInkView usesLegacyInkRipple]
+-[MDCInkView setUsesLegacyInkRipple:]
+-[MDCInkView maskLayer]
+-[MDCInkView setMaskLayer:]
+-[MDCInkView startInkRippleCompletionBlock]
+-[MDCInkView setStartInkRippleCompletionBlock:]
+-[MDCInkView endInkRippleCompletionBlock]
+-[MDCInkView setEndInkRippleCompletionBlock:]
+-[MDCInkView activeInkLayer]
+-[MDCInkView setActiveInkLayer:]
+-[MDCInkView .cxx_destruct]
+-[MDCInkPendingAnimation runActionForKey:object:arguments:]
+-[MDCInkPendingAnimation animationSourceLayer]
+-[MDCInkPendingAnimation setAnimationSourceLayer:]
+-[MDCInkPendingAnimation keyPath]
+-[MDCInkPendingAnimation setKeyPath:]
+-[MDCInkPendingAnimation fromValue]
+-[MDCInkPendingAnimation setFromValue:]
+-[MDCInkPendingAnimation toValue]
+-[MDCInkPendingAnimation setToValue:]
+-[MDCInkPendingAnimation .cxx_destruct]
+_MDCFabs
+_OBJC_IVAR_$_MDCInkView._usesLegacyInkRipple
+_OBJC_IVAR_$_MDCInkView._maskLayer
+_OBJC_IVAR_$_MDCInkView._inkStyle
+_OBJC_IVAR_$_MDCInkView._maxRippleRadius
+_OBJC_IVAR_$_MDCInkView._animationDelegate
+_OBJC_IVAR_$_MDCInkView._startInkRippleCompletionBlock
+_OBJC_IVAR_$_MDCInkView._endInkRippleCompletionBlock
+_OBJC_IVAR_$_MDCInkView._activeInkLayer
+l_OBJC_PROTOCOL_$_CALayerDelegate
+l_OBJC_LABEL_PROTOCOL_$_CALayerDelegate
+l_OBJC_PROTOCOL_$_MDCInkLayerDelegate
+l_OBJC_LABEL_PROTOCOL_$_MDCInkLayerDelegate
+l_OBJC_PROTOCOL_$_MDCLegacyInkLayerDelegate
+l_OBJC_LABEL_PROTOCOL_$_MDCLegacyInkLayerDelegate
+_OBJC_IVAR_$_MDCInkPendingAnimation._animationSourceLayer
+_OBJC_IVAR_$_MDCInkPendingAnimation._keyPath
+_OBJC_IVAR_$_MDCInkPendingAnimation._fromValue
+_OBJC_IVAR_$_MDCInkPendingAnimation._toValue
+l_OBJC_PROTOCOL_$_CAAction
+l_OBJC_LABEL_PROTOCOL_$_CAAction
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Ink/src/MDCInkView.m
+MDCFabs
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Ink/src/MDCInkView.h
+MDCCGFloatEqual
++[MDCItemBar defaultHeightForStyle:]
+-[MDCItemBar initWithFrame:]
+-[MDCItemBar initWithCoder:]
+-[MDCItemBar commonItemBarInit]
+___isTargetPlatformNative
+___isTargetVariantOSVersionAtLeast
+-[MDCItemBar dealloc]
+-[MDCItemBar applyStyle:]
+-[MDCItemBar setItems:]
+-[MDCItemBar setAlignment:]
+-[MDCItemBar setAlignment:animated:]
+-[MDCItemBar setSelectedItem:]
+-[MDCItemBar setSelectedItem:animated:]
+-[MDCItemBar accessibilityElementForItem:]
+-[MDCItemBar observeValueForKeyPath:ofObject:change:context:]
+-[MDCItemBar layoutSubviews]
+___CGSizeEqualToSize
+-[MDCItemBar sizeThatFits:]
+-[MDCItemBar intrinsicContentSize]
+_CGSizeMake
+-[MDCItemBar safeAreaInsetsDidChange]
+-[MDCItemBar didMoveToWindow]
+-[MDCItemBar traitCollectionDidChange:]
+-[MDCItemBar tintColorDidChange]
+-[MDCItemBar mdf_setSemanticContentAttribute:]
+-[MDCItemBar collectionView:shouldSelectItemAtIndexPath:]
+-[MDCItemBar collectionView:didSelectItemAtIndexPath:]
+-[MDCItemBar collectionView:numberOfItemsInSection:]
+-[MDCItemBar collectionView:cellForItemAtIndexPath:]
+-[MDCItemBar collectionView:layout:sizeForItemAtIndexPath:]
+-[MDCItemBar adjustedCollectionViewWidth]
+_UIEdgeInsetsInsetRect
++[MDCItemBar observableItemKeys]
+___32+[MDCItemBar observableItemKeys]_block_invoke
+-[MDCItemBar startObservingItems]
+-[MDCItemBar stopObservingItems]
+-[MDCItemBar horizontalSizeClass]
+-[MDCItemBar selectItemAtIndex:animated:]
+-[MDCItemBar itemAtIndexPath:]
+-[MDCItemBar indexForItem:]
+-[MDCItemBar indexPathForItemAtIndex:]
+-[MDCItemBar reload]
+-[MDCItemBar generatedFlowLayout]
+-[MDCItemBar didSelectItemAtIndex:animateTransition:]
+___53-[MDCItemBar didSelectItemAtIndex:animateTransition:]_block_invoke
+-[MDCItemBar updateAlignmentAnimated:]
+-[MDCItemBar updateCurrentAlignment]
+-[MDCItemBar updateSelectionIndicatorToIndex:]
+-[MDCItemBar updateFlowLayoutMetricsAnimated:]
+___46-[MDCItemBar updateFlowLayoutMetricsAnimated:]_block_invoke
+-[MDCItemBar updateScrollProperties]
+-[MDCItemBar updateFlowLayoutMetrics]
+-[MDCItemBar leadingAlignedInsetsForHorizontalSizeClass:]
+_UIEdgeInsetsMake
+-[MDCItemBar justifiedInsets]
+-[MDCItemBar centeredInsetsForHorizontalSizeClass:]
+-[MDCItemBar centerSelectedInsets]
+-[MDCItemBar totalWidthOfAllItems]
+-[MDCItemBar configureCell:]
+-[MDCItemBar configureVisibleCells]
+-[MDCItemBar updateColors]
+-[MDCItemBar updateSelectionIndicatorVisibility]
+-[MDCItemBar items]
+-[MDCItemBar selectedItem]
+-[MDCItemBar delegate]
+-[MDCItemBar setDelegate:]
+-[MDCItemBar alignment]
+-[MDCItemBar .cxx_destruct]
+-[MDCItemBarFlowLayout prepareLayout]
+-[MDCItemBarFlowLayout layoutAttributesForItemAtIndexPath:]
+-[MDCItemBarFlowLayout layoutAttributesForElementsInRect:]
+___58-[MDCItemBarFlowLayout layoutAttributesForElementsInRect:]_block_invoke
+-[MDCItemBarFlowLayout collectionViewContentSize]
+-[MDCItemBarFlowLayout shouldInvalidateLayoutForBoundsChange:]
+-[MDCItemBarFlowLayout flippedAttributesFromAttributes:]
+-[MDCItemBarFlowLayout shouldEnforceRightToLeftLayout]
+-[MDCItemBarFlowLayout shouldRelayoutAttributesForRTL]
+-[MDCItemBarFlowLayout shouldPadContentSizeForRTL]
+-[MDCItemBarFlowLayout paddedAttributesFromAttributes:]
+-[MDCItemBarFlowLayout adjustedCollectionViewBounds]
+-[MDCItemBarFlowLayout .cxx_destruct]
+___clang_at_available_requires_core_foundation_framework
+_kItemReuseID
+_OBJC_IVAR_$_MDCItemBar._alignment
+_OBJC_IVAR_$_MDCItemBar._style
+_OBJC_IVAR_$_MDCItemBar._items
+_OBJC_IVAR_$_MDCItemBar._flowLayout
+_OBJC_IVAR_$_MDCItemBar._collectionView
+_OBJC_IVAR_$_MDCItemBar._selectionIndicator
+_OBJC_IVAR_$_MDCItemBar._selectedItem
+_kItemPropertyContext
+_OBJC_IVAR_$_MDCItemBar._lastSize
+_OBJC_IVAR_$_MDCItemBar._lastAdjustedCollectionViewWidth
+_OBJC_IVAR_$_MDCItemBar._currentAlignment
+_observableItemKeys.onceToken
+_observableItemKeys.s_keys
+___block_descriptor_20_e5_v4@?0l
+___block_literal_global
+___block_descriptor_28_e4_20s_e5_v4@?0l
+_OBJC_IVAR_$_MDCItemBar._delegate
+l_OBJC_PROTOCOL_$_UICollectionViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDataSource
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_UICollectionViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegate
+l_OBJC_PROTOCOL_$_UICollectionViewDelegateFlowLayout
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegateFlowLayout
+_OBJC_IVAR_$_MDCItemBarFlowLayout._correctedAttributesForIndexPath
+_OBJC_IVAR_$_MDCItemBarFlowLayout._isPaddingCollectionViewContentSize
+_OBJC_IVAR_$_MDCItemBarFlowLayout._paddedCollectionViewContentSize
+___block_descriptor_36_e58_c12@?0@"UICollectionViewLayoutAttributes"4@"NSDictionary"8l
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/private/MDCItemBar.m
+__58-[MDCItemBarFlowLayout layoutAttributesForElementsInRect:]_block_invoke
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/private/MDCItemBar.h
+UIEdgeInsetsMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
+__46-[MDCItemBar updateFlowLayoutMetricsAnimated:]_block_invoke
+__53-[MDCItemBar didSelectItemAtIndex:animateTransition:]_block_invoke
+__32+[MDCItemBar observableItemKeys]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/dispatch/once.h
+UIEdgeInsetsInsetRect
+CGSizeMake
+__CGSizeEqualToSize
+-[MDCItemBarBadge initWithFrame:]
+-[MDCItemBarBadge commonMDCTabBarItemBadgeInit]
+-[MDCItemBarBadge badgeXPaddingForRadius:]
+_MDCRound
+-[MDCItemBarBadge layoutSubviews]
+-[MDCItemBarBadge sizeThatFits:]
+-[MDCItemBarBadge setBadgeValue:]
+-[MDCItemBarBadge setBadgeColor:]
+-[MDCItemBarBadge badgeValue]
+-[MDCItemBarBadge badgeColor]
+-[MDCItemBarBadge badgeValueLabel]
+-[MDCItemBarBadge .cxx_destruct]
+_OBJC_IVAR_$_MDCItemBarBadge._badgeColor
+_OBJC_IVAR_$_MDCItemBarBadge._badgeValueLabel
+_OBJC_IVAR_$_MDCItemBarBadge._badgeValue
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/private/MDCItemBarBadge.m
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/private/MDCItemBarBadge.h
+MDCRound
+-[MDCItemBarCell initWithFrame:]
++[MDCItemBarCell sizeThatFits:item:style:]
+-[MDCItemBarCell setTitle:]
+-[MDCItemBarCell setImage:]
+-[MDCItemBarCell setBadgeValue:]
+-[MDCItemBarCell contentFrame]
+-[MDCItemBarCell applyStyle:]
+-[MDCItemBarCell updateTitleLines]
+-[MDCItemBarCell updateWithItem:atIndex:count:]
+-[MDCItemBarCell layoutSubviews]
+_MDCRoundCenterWithBoundsAndScale
+_MDCRectAlignToScale
+-[MDCItemBarCell tintColorDidChange]
+-[MDCItemBarCell didMoveToWindow]
+-[MDCItemBarCell prepareForReuse]
+-[MDCItemBarCell setSelected:]
+-[MDCItemBarCell setHighlighted:]
+-[MDCItemBarCell accessibilityLabel]
++[MDCItemBarCell minimumEdgeInsets]
++[MDCItemBarCell localizedStringWithKey:]
++[MDCItemBarCell displayedTitleForTitle:style:]
+-[MDCItemBarCell updateSubviews]
+-[MDCItemBarCell updateColors]
+-[MDCItemBarCell updateTitleTextColor]
+-[MDCItemBarCell updateImageTintColor]
+-[MDCItemBarCell updateBadgeColor]
+-[MDCItemBarCell updateTransformsAnimated:]
+___43-[MDCItemBarCell updateTransformsAnimated:]_block_invoke
+___43-[MDCItemBarCell updateTransformsAnimated:]_block_invoke.222
+-[MDCItemBarCell updateTitleFont]
+-[MDCItemBarCell updateInk]
+-[MDCItemBarCell updateAccessibilityTraits]
+-[MDCItemBarCell updateDisplayedImage]
+-[MDCItemBarCell updateDisplayedTitle]
+-[MDCItemBarCell title]
+-[MDCItemBarCell image]
+-[MDCItemBarCell badgeValue]
+-[MDCItemBarCell imageView]
+-[MDCItemBarCell setImageView:]
+-[MDCItemBarCell badge]
+-[MDCItemBarCell setBadge:]
+-[MDCItemBarCell inkTouchController]
+-[MDCItemBarCell setInkTouchController:]
+-[MDCItemBarCell style]
+-[MDCItemBarCell setStyle:]
+-[MDCItemBarCell itemIndex]
+-[MDCItemBarCell setItemIndex:]
+-[MDCItemBarCell itemCount]
+-[MDCItemBarCell setItemCount:]
+-[MDCItemBarCell titleLabel]
+-[MDCItemBarCell setTitleLabel:]
+-[MDCItemBarCell badgeLabel]
+-[MDCItemBarCell .cxx_destruct]
+_MDCPointRoundWithScale
+_MDCFloor
+_MDCCeil
+_kMDCItemBarStringKeyAccessibilityTabElementLabel
+_kMDCItemBarStringKeyAccessibilityTabPositionFormat
+_kMDCItemBarStringsTableName
+_kResourceBundleName
+_kStringTableName
+_OBJC_IVAR_$_MDCItemBarCell._style
+_OBJC_IVAR_$_MDCItemBarCell._title
+_OBJC_IVAR_$_MDCItemBarCell._itemIndex
+_OBJC_IVAR_$_MDCItemBarCell._inkTouchController
+_kImageSize
+_kEdgeInsets
+_OBJC_IVAR_$_MDCItemBarCell._image
+_OBJC_IVAR_$_MDCItemBarCell._badgeValue
+_OBJC_IVAR_$_MDCItemBarCell._badge
+_OBJC_IVAR_$_MDCItemBarCell._titleLabel
+_OBJC_IVAR_$_MDCItemBarCell._imageView
+_OBJC_IVAR_$_MDCItemBarCell._itemCount
+___block_descriptor_76_e4_20s_e5_v4@?0l
+___block_descriptor_28_e4_20s_e7_v8@?0c4l
+_OBJC_IVAR_$_MDCItemBarCell._badgeLabel
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/private/MDCItemBarCell.m
+MDCCeil
+MDCFloor
+MDCPointRoundWithScale
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/private/MDCItemBarCell+Private.h
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/private/MDCItemBarCell.h
+__43-[MDCItemBarCell updateTransformsAnimated:]_block_invoke.222
+__43-[MDCItemBarCell updateTransformsAnimated:]_block_invoke
+MDCRectAlignToScale
+MDCRoundCenterWithBoundsAndScale
+-[MDCItemBarStyle init]
+-[MDCItemBarStyle copyWithZone:]
+-[MDCItemBarStyle defaultHeight]
+-[MDCItemBarStyle setDefaultHeight:]
+-[MDCItemBarStyle shouldDisplaySelectionIndicator]
+-[MDCItemBarStyle setShouldDisplaySelectionIndicator:]
+-[MDCItemBarStyle selectionIndicatorColor]
+-[MDCItemBarStyle setSelectionIndicatorColor:]
+-[MDCItemBarStyle selectionIndicatorTemplate]
+-[MDCItemBarStyle setSelectionIndicatorTemplate:]
+-[MDCItemBarStyle maximumItemWidth]
+-[MDCItemBarStyle setMaximumItemWidth:]
+-[MDCItemBarStyle shouldDisplayTitle]
+-[MDCItemBarStyle setShouldDisplayTitle:]
+-[MDCItemBarStyle shouldDisplayImage]
+-[MDCItemBarStyle setShouldDisplayImage:]
+-[MDCItemBarStyle shouldDisplayBadge]
+-[MDCItemBarStyle setShouldDisplayBadge:]
+-[MDCItemBarStyle shouldGrowOnSelection]
+-[MDCItemBarStyle setShouldGrowOnSelection:]
+-[MDCItemBarStyle titleColor]
+-[MDCItemBarStyle setTitleColor:]
+-[MDCItemBarStyle selectedTitleColor]
+-[MDCItemBarStyle setSelectedTitleColor:]
+-[MDCItemBarStyle imageTintColor]
+-[MDCItemBarStyle setImageTintColor:]
+-[MDCItemBarStyle selectedImageTintColor]
+-[MDCItemBarStyle setSelectedImageTintColor:]
+-[MDCItemBarStyle selectedTitleFont]
+-[MDCItemBarStyle setSelectedTitleFont:]
+-[MDCItemBarStyle unselectedTitleFont]
+-[MDCItemBarStyle setUnselectedTitleFont:]
+-[MDCItemBarStyle badgeColor]
+-[MDCItemBarStyle setBadgeColor:]
+-[MDCItemBarStyle inkStyle]
+-[MDCItemBarStyle setInkStyle:]
+-[MDCItemBarStyle inkColor]
+-[MDCItemBarStyle setInkColor:]
+-[MDCItemBarStyle titleImagePadding]
+-[MDCItemBarStyle setTitleImagePadding:]
+-[MDCItemBarStyle textOnlyNumberOfLines]
+-[MDCItemBarStyle setTextOnlyNumberOfLines:]
+-[MDCItemBarStyle displaysUppercaseTitles]
+-[MDCItemBarStyle setDisplaysUppercaseTitles:]
+-[MDCItemBarStyle .cxx_destruct]
+_OBJC_IVAR_$_MDCItemBarStyle._titleColor
+_OBJC_IVAR_$_MDCItemBarStyle._imageTintColor
+_OBJC_IVAR_$_MDCItemBarStyle._badgeColor
+_OBJC_IVAR_$_MDCItemBarStyle._displaysUppercaseTitles
+_OBJC_IVAR_$_MDCItemBarStyle._shouldDisplayTitle
+_OBJC_IVAR_$_MDCItemBarStyle._shouldDisplaySelectionIndicator
+_OBJC_IVAR_$_MDCItemBarStyle._textOnlyNumberOfLines
+_OBJC_IVAR_$_MDCItemBarStyle._defaultHeight
+_OBJC_IVAR_$_MDCItemBarStyle._selectionIndicatorColor
+_OBJC_IVAR_$_MDCItemBarStyle._selectionIndicatorTemplate
+_OBJC_IVAR_$_MDCItemBarStyle._maximumItemWidth
+_OBJC_IVAR_$_MDCItemBarStyle._shouldDisplayImage
+_OBJC_IVAR_$_MDCItemBarStyle._shouldDisplayBadge
+_OBJC_IVAR_$_MDCItemBarStyle._shouldGrowOnSelection
+_OBJC_IVAR_$_MDCItemBarStyle._selectedTitleColor
+_OBJC_IVAR_$_MDCItemBarStyle._selectedImageTintColor
+_OBJC_IVAR_$_MDCItemBarStyle._selectedTitleFont
+_OBJC_IVAR_$_MDCItemBarStyle._unselectedTitleFont
+_OBJC_IVAR_$_MDCItemBarStyle._inkStyle
+_OBJC_IVAR_$_MDCItemBarStyle._inkColor
+_OBJC_IVAR_$_MDCItemBarStyle._titleImagePadding
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/private/MDCItemBarStyle.m
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/private/MDCItemBarStyle.h
+-[MDCLegacyInkLayerRipple init]
+-[MDCLegacyInkLayerRipple setupRipple]
+-[MDCLegacyInkLayerRipple enter]
+-[MDCLegacyInkLayerRipple exit]
+-[MDCLegacyInkLayerRipple opacityAnimWithValues:times:]
+-[MDCLegacyInkLayerRipple positionAnimWithPath:duration:timingFunction:]
+-[MDCLegacyInkLayerRipple scaleAnimWithValues:times:]
+-[MDCLegacyInkLayerRipple logDecelerateEasing]
+-[MDCLegacyInkLayerRipple animationDidStop:finished:]
+-[MDCLegacyInkLayerRipple isAnimationCleared]
+-[MDCLegacyInkLayerRipple setAnimationCleared:]
+-[MDCLegacyInkLayerRipple animationDelegate]
+-[MDCLegacyInkLayerRipple setAnimationDelegate:]
+-[MDCLegacyInkLayerRipple bounded]
+-[MDCLegacyInkLayerRipple setBounded:]
+-[MDCLegacyInkLayerRipple inkLayer]
+-[MDCLegacyInkLayerRipple setInkLayer:]
+-[MDCLegacyInkLayerRipple radius]
+-[MDCLegacyInkLayerRipple setRadius:]
+-[MDCLegacyInkLayerRipple point]
+-[MDCLegacyInkLayerRipple setPoint:]
+-[MDCLegacyInkLayerRipple targetFrame]
+-[MDCLegacyInkLayerRipple setTargetFrame:]
+-[MDCLegacyInkLayerRipple rippleState]
+-[MDCLegacyInkLayerRipple setRippleState:]
+-[MDCLegacyInkLayerRipple color]
+-[MDCLegacyInkLayerRipple setColor:]
+-[MDCLegacyInkLayerRipple .cxx_destruct]
+-[MDCLegacyInkLayerForegroundRipple setupRipple]
+-[MDCLegacyInkLayerForegroundRipple enterWithCompletion:]
+_MDCLegacyInkLayerRectGetCenter
+___57-[MDCLegacyInkLayerForegroundRipple enterWithCompletion:]_block_invoke
+___copy_helper_block_e4_20b24w
+___destroy_helper_block_e4_20s24w
+-[MDCLegacyInkLayerForegroundRipple exit:]
+-[MDCLegacyInkLayerForegroundRipple exit:completion:]
+___53-[MDCLegacyInkLayerForegroundRipple exit:completion:]_block_invoke
+___copy_helper_block_e4_20w
+___destroy_helper_block_e4_20w
+_MDCLegacyInkLayerInterpolatePoint
+___53-[MDCLegacyInkLayerForegroundRipple exit:completion:]_block_invoke.241
+-[MDCLegacyInkLayerForegroundRipple removeAllAnimations]
+-[MDCLegacyInkLayerForegroundRipple useCustomInkCenter]
+-[MDCLegacyInkLayerForegroundRipple setUseCustomInkCenter:]
+-[MDCLegacyInkLayerForegroundRipple customInkCenter]
+-[MDCLegacyInkLayerForegroundRipple setCustomInkCenter:]
+-[MDCLegacyInkLayerForegroundRipple foregroundOpacityAnim]
+-[MDCLegacyInkLayerForegroundRipple setForegroundOpacityAnim:]
+-[MDCLegacyInkLayerForegroundRipple foregroundPositionAnim]
+-[MDCLegacyInkLayerForegroundRipple setForegroundPositionAnim:]
+-[MDCLegacyInkLayerForegroundRipple foregroundScaleAnim]
+-[MDCLegacyInkLayerForegroundRipple setForegroundScaleAnim:]
+-[MDCLegacyInkLayerForegroundRipple .cxx_destruct]
+-[MDCLegacyInkLayerBackgroundRipple enter]
+-[MDCLegacyInkLayerBackgroundRipple exit:]
+___42-[MDCLegacyInkLayerBackgroundRipple exit:]_block_invoke
+-[MDCLegacyInkLayerBackgroundRipple removeAllAnimations]
+-[MDCLegacyInkLayerBackgroundRipple backgroundOpacityAnim]
+-[MDCLegacyInkLayerBackgroundRipple setBackgroundOpacityAnim:]
+-[MDCLegacyInkLayerBackgroundRipple .cxx_destruct]
+-[MDCLegacyInkLayer init]
+-[MDCLegacyInkLayer initWithCoder:]
+-[MDCLegacyInkLayer commonMDCLegacyInkLayerInit]
+-[MDCLegacyInkLayer layoutSublayers]
+_MDCLegacyInkLayerRadiusBounds
+_MDCLegacyInkLayerRectHypotenuse
+-[MDCLegacyInkLayer enterAllInks]
+-[MDCLegacyInkLayer resetAllInk:]
+-[MDCLegacyInkLayer resetBottomInk:completion:]
+-[MDCLegacyInkLayer resetBottomInk:toPoint:completion:]
+-[MDCLegacyInkLayer spreadFromPoint:completion:]
+-[MDCLegacyInkLayer evaporateWithCompletion:]
+-[MDCLegacyInkLayer evaporateToPoint:completion:]
+-[MDCLegacyInkLayer animationDidStart:]
+-[MDCLegacyInkLayer animationDidStop:shapeLayer:finished:]
+-[MDCLegacyInkLayer animationDelegate]
+-[MDCLegacyInkLayer setAnimationDelegate:]
+-[MDCLegacyInkLayer isBounded]
+-[MDCLegacyInkLayer setBounded:]
+-[MDCLegacyInkLayer maxRippleRadius]
+-[MDCLegacyInkLayer setMaxRippleRadius:]
+-[MDCLegacyInkLayer inkColor]
+-[MDCLegacyInkLayer setInkColor:]
+-[MDCLegacyInkLayer spreadDuration]
+-[MDCLegacyInkLayer evaporateDuration]
+-[MDCLegacyInkLayer useCustomInkCenter]
+-[MDCLegacyInkLayer setUseCustomInkCenter:]
+-[MDCLegacyInkLayer customInkCenter]
+-[MDCLegacyInkLayer setCustomInkCenter:]
+-[MDCLegacyInkLayer userLinearExpansion]
+-[MDCLegacyInkLayer setUserLinearExpansion:]
+-[MDCLegacyInkLayer compositeRipple]
+-[MDCLegacyInkLayer setCompositeRipple:]
+-[MDCLegacyInkLayer foregroundRipples]
+-[MDCLegacyInkLayer setForegroundRipples:]
+-[MDCLegacyInkLayer backgroundRipples]
+-[MDCLegacyInkLayer setBackgroundRipples:]
+-[MDCLegacyInkLayer isAnimating]
+-[MDCLegacyInkLayer setAnimating:]
+-[MDCLegacyInkLayer .cxx_destruct]
+_MDCLegacyInkLayerRandom
+_kInkLayerOpacity
+_kInkLayerPosition
+_kInkLayerScale
+_OBJC_IVAR_$_MDCLegacyInkLayerRipple._rippleState
+_OBJC_IVAR_$_MDCLegacyInkLayerRipple._animationCleared
+_OBJC_IVAR_$_MDCLegacyInkLayerRipple._inkLayer
+_OBJC_IVAR_$_MDCLegacyInkLayerRipple._animationDelegate
+_OBJC_IVAR_$_MDCLegacyInkLayerRipple._bounded
+_OBJC_IVAR_$_MDCLegacyInkLayerRipple._radius
+_OBJC_IVAR_$_MDCLegacyInkLayerRipple._point
+_OBJC_IVAR_$_MDCLegacyInkLayerRipple._targetFrame
+_OBJC_IVAR_$_MDCLegacyInkLayerRipple._color
+l_OBJC_PROTOCOL_$_CAAnimationDelegate
+l_OBJC_LABEL_PROTOCOL_$_CAAnimationDelegate
+_kInkLayerForegroundOpacityAnim
+_kInkLayerForegroundPositionAnim
+_kInkLayerForegroundScaleAnim
+_OBJC_IVAR_$_MDCLegacyInkLayerForegroundRipple._foregroundOpacityAnim
+_OBJC_IVAR_$_MDCLegacyInkLayerForegroundRipple._foregroundScaleAnim
+_kInkLayerForegroundUnboundedOpacityEnterDuration
+_OBJC_IVAR_$_MDCLegacyInkLayerForegroundRipple._foregroundPositionAnim
+___block_descriptor_28_e4_20bs24w_e5_v4@?0l
+___block_descriptor_24_e4_20w_e5_v4@?0l
+_kInkLayerForegroundBoundedOpacityExitDuration
+_kInkLayerForegroundBoundedRadiusExitDuration
+_OBJC_IVAR_$_MDCLegacyInkLayerForegroundRipple._useCustomInkCenter
+_OBJC_IVAR_$_MDCLegacyInkLayerForegroundRipple._customInkCenter
+_kInkLayerBackgroundOpacityAnim
+_OBJC_IVAR_$_MDCLegacyInkLayerBackgroundRipple._backgroundOpacityAnim
+_kInkLayerBackgroundOpacityEnterDuration
+_OBJC_IVAR_$_MDCLegacyInkLayer._animating
+_OBJC_IVAR_$_MDCLegacyInkLayer._bounded
+_OBJC_IVAR_$_MDCLegacyInkLayer._inkColor
+_OBJC_IVAR_$_MDCLegacyInkLayer._compositeRipple
+_OBJC_IVAR_$_MDCLegacyInkLayer._foregroundRipples
+_OBJC_IVAR_$_MDCLegacyInkLayer._backgroundRipples
+_OBJC_IVAR_$_MDCLegacyInkLayer._maxRippleRadius
+_OBJC_IVAR_$_MDCLegacyInkLayer._animationDelegate
+_OBJC_IVAR_$_MDCLegacyInkLayer._spreadDuration
+_OBJC_IVAR_$_MDCLegacyInkLayer._evaporateDuration
+_OBJC_IVAR_$_MDCLegacyInkLayer._useCustomInkCenter
+_OBJC_IVAR_$_MDCLegacyInkLayer._customInkCenter
+_OBJC_IVAR_$_MDCLegacyInkLayer._userLinearExpansion
+l_OBJC_PROTOCOL_$_MDCLegacyInkLayerRippleDelegate
+l_OBJC_LABEL_PROTOCOL_$_MDCLegacyInkLayerRippleDelegate
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Ink/src/private/MDCLegacyInkLayer.m
+MDCLegacyInkLayerRandom
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Ink/src/private/MDCLegacyInkLayer+Private.h
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Ink/src/private/MDCLegacyInkLayer.h
+MDCLegacyInkLayerRectHypotenuse
+MDCLegacyInkLayerRadiusBounds
+__42-[MDCLegacyInkLayerBackgroundRipple exit:]_block_invoke
+__53-[MDCLegacyInkLayerForegroundRipple exit:completion:]_block_invoke.241
+MDCLegacyInkLayerInterpolatePoint
+__destroy_helper_block_e4_20w
+__copy_helper_block_e4_20w
+__53-[MDCLegacyInkLayerForegroundRipple exit:completion:]_block_invoke
+__destroy_helper_block_e4_20s24w
+__copy_helper_block_e4_20b24w
+__57-[MDCLegacyInkLayerForegroundRipple enterWithCompletion:]_block_invoke
+MDCLegacyInkLayerRectGetCenter
+_NameToIndex
+_ColorToHSB
+_IsComponentGreaterThanValue
+_Clamp
+_InvLerp
+_Lerp
+___NameToIndex_block_invoke
+_kAccentSaturation
+_kAccentBrightness
+_NameToIndex.map
+_NameToIndex.onceToken
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Palettes/src/private/MDCPaletteExpansions.m
+__NameToIndex_block_invoke
+MDCPaletteAccentFromTargetColor
+Lerp
+InvLerp
+Clamp
+IsComponentGreaterThanValue
+ColorToHSB
+NameToIndex
+MDCPaletteTintFromTargetColor
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Palettes/src/private/MDCPaletteNames.m
+MDCPaletteIsTintOrAccentName
++[MDCPalette redPalette]
+___24+[MDCPalette redPalette]_block_invoke
+_ColorFromRGB
+___copy_helper_block_e4_
+___destroy_helper_block_e4_
++[MDCPalette pinkPalette]
+___25+[MDCPalette pinkPalette]_block_invoke
++[MDCPalette purplePalette]
+___27+[MDCPalette purplePalette]_block_invoke
++[MDCPalette deepPurplePalette]
+___31+[MDCPalette deepPurplePalette]_block_invoke
++[MDCPalette indigoPalette]
+___27+[MDCPalette indigoPalette]_block_invoke
++[MDCPalette bluePalette]
+___25+[MDCPalette bluePalette]_block_invoke
++[MDCPalette lightBluePalette]
+___30+[MDCPalette lightBluePalette]_block_invoke
++[MDCPalette cyanPalette]
+___25+[MDCPalette cyanPalette]_block_invoke
++[MDCPalette tealPalette]
+___25+[MDCPalette tealPalette]_block_invoke
++[MDCPalette greenPalette]
+___26+[MDCPalette greenPalette]_block_invoke
++[MDCPalette lightGreenPalette]
+___31+[MDCPalette lightGreenPalette]_block_invoke
++[MDCPalette limePalette]
+___25+[MDCPalette limePalette]_block_invoke
++[MDCPalette yellowPalette]
+___27+[MDCPalette yellowPalette]_block_invoke
++[MDCPalette amberPalette]
+___26+[MDCPalette amberPalette]_block_invoke
++[MDCPalette orangePalette]
+___27+[MDCPalette orangePalette]_block_invoke
++[MDCPalette deepOrangePalette]
+___31+[MDCPalette deepOrangePalette]_block_invoke
++[MDCPalette brownPalette]
+___26+[MDCPalette brownPalette]_block_invoke
++[MDCPalette greyPalette]
+___25+[MDCPalette greyPalette]_block_invoke
++[MDCPalette blueGreyPalette]
+___29+[MDCPalette blueGreyPalette]_block_invoke
++[MDCPalette paletteGeneratedFromColor:]
++[MDCPalette paletteWithTints:accents:]
+-[MDCPalette initWithTints:accents:]
+-[MDCPalette tint50]
+-[MDCPalette tint100]
+-[MDCPalette tint200]
+-[MDCPalette tint300]
+-[MDCPalette tint400]
+-[MDCPalette tint500]
+-[MDCPalette tint600]
+-[MDCPalette tint700]
+-[MDCPalette tint800]
+-[MDCPalette tint900]
+-[MDCPalette accent100]
+-[MDCPalette accent200]
+-[MDCPalette accent400]
+-[MDCPalette accent700]
++[MDCPalette requiredTintKeys]
+-[MDCPalette .cxx_destruct]
+_redPalette.palette
+_redPalette.onceToken
+___block_descriptor_24_e4__e5_v4@?0l
+_pinkPalette.palette
+_pinkPalette.onceToken
+_purplePalette.palette
+_purplePalette.onceToken
+_deepPurplePalette.palette
+_deepPurplePalette.onceToken
+_indigoPalette.palette
+_indigoPalette.onceToken
+_bluePalette.palette
+_bluePalette.onceToken
+_lightBluePalette.palette
+_lightBluePalette.onceToken
+_cyanPalette.palette
+_cyanPalette.onceToken
+_tealPalette.palette
+_tealPalette.onceToken
+_greenPalette.palette
+_greenPalette.onceToken
+_lightGreenPalette.palette
+_lightGreenPalette.onceToken
+_limePalette.palette
+_limePalette.onceToken
+_yellowPalette.palette
+_yellowPalette.onceToken
+_amberPalette.palette
+_amberPalette.onceToken
+_orangePalette.palette
+_orangePalette.onceToken
+_deepOrangePalette.palette
+_deepOrangePalette.onceToken
+_brownPalette.palette
+_brownPalette.onceToken
+_greyPalette.palette
+_greyPalette.onceToken
+_blueGreyPalette.palette
+_blueGreyPalette.onceToken
+_OBJC_IVAR_$_MDCPalette._accents
+_OBJC_IVAR_$_MDCPalette._tints
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Palettes/src/MDCPalettes.m
+__29+[MDCPalette blueGreyPalette]_block_invoke
+__25+[MDCPalette greyPalette]_block_invoke
+__26+[MDCPalette brownPalette]_block_invoke
+__31+[MDCPalette deepOrangePalette]_block_invoke
+__27+[MDCPalette orangePalette]_block_invoke
+__26+[MDCPalette amberPalette]_block_invoke
+__27+[MDCPalette yellowPalette]_block_invoke
+__25+[MDCPalette limePalette]_block_invoke
+__31+[MDCPalette lightGreenPalette]_block_invoke
+__26+[MDCPalette greenPalette]_block_invoke
+__25+[MDCPalette tealPalette]_block_invoke
+__25+[MDCPalette cyanPalette]_block_invoke
+__30+[MDCPalette lightBluePalette]_block_invoke
+__25+[MDCPalette bluePalette]_block_invoke
+__27+[MDCPalette indigoPalette]_block_invoke
+__31+[MDCPalette deepPurplePalette]_block_invoke
+__27+[MDCPalette purplePalette]_block_invoke
+__25+[MDCPalette pinkPalette]_block_invoke
+__destroy_helper_block_e4_
+__copy_helper_block_e4_
+ColorFromRGB
+__24+[MDCPalette redPalette]_block_invoke
++[MDCShadowMetrics metricsWithElevation:]
+-[MDCShadowMetrics initWithElevation:]
++[MDCShadowMetrics emptyShadowMetrics]
+___38+[MDCShadowMetrics emptyShadowMetrics]_block_invoke
++[MDCShadowMetrics ambientShadowBlur:]
++[MDCShadowMetrics keyShadowBlur:]
++[MDCShadowMetrics keyShadowYOff:]
+-[MDCShadowMetrics topShadowRadius]
+-[MDCShadowMetrics topShadowOffset]
+-[MDCShadowMetrics topShadowOpacity]
+-[MDCShadowMetrics bottomShadowRadius]
+-[MDCShadowMetrics bottomShadowOffset]
+-[MDCShadowMetrics bottomShadowOpacity]
+-[MDCShadowLayer init]
+-[MDCShadowLayer initWithCoder:]
+-[MDCShadowLayer initWithLayer:]
+-[MDCShadowLayer commonMDCShadowLayerInit]
+-[MDCShadowLayer layoutSublayers]
+-[MDCShadowLayer setBounds:]
+-[MDCShadowLayer defaultShadowPath]
+-[MDCShadowLayer setCornerRadius:]
+-[MDCShadowLayer setShadowPath:]
+-[MDCShadowLayer setShadowColor:]
+-[MDCShadowLayer setShouldRasterize:]
++[MDCShadowLayer shadowSpreadForElevation:]
+-[MDCShadowLayer setShadowMaskEnabled:]
+-[MDCShadowLayer configureShadowLayerMaskForLayer:]
+-[MDCShadowLayer maskRect]
+-[MDCShadowLayer outerMaskPath]
+-[MDCShadowLayer setElevation:]
+-[MDCShadowLayer actionForLayer:forKey:]
+-[MDCShadowLayer commonLayoutSublayers]
+-[MDCShadowLayer animateCornerRadius:withTimingFunction:duration:]
+-[MDCShadowLayer elevation]
+-[MDCShadowLayer isShadowMaskEnabled]
+-[MDCShadowLayer topShadow]
+-[MDCShadowLayer setTopShadow:]
+-[MDCShadowLayer bottomShadow]
+-[MDCShadowLayer setBottomShadow:]
+-[MDCShadowLayer topShadowMask]
+-[MDCShadowLayer setTopShadowMask:]
+-[MDCShadowLayer bottomShadowMask]
+-[MDCShadowLayer setBottomShadowMask:]
+-[MDCShadowLayer .cxx_destruct]
+-[MDCPendingAnimation runActionForKey:object:arguments:]
+-[MDCPendingAnimation animationSourceLayer]
+-[MDCPendingAnimation setAnimationSourceLayer:]
+-[MDCPendingAnimation keyPath]
+-[MDCPendingAnimation setKeyPath:]
+-[MDCPendingAnimation fromValue]
+-[MDCPendingAnimation setFromValue:]
+-[MDCPendingAnimation toValue]
+-[MDCPendingAnimation setToValue:]
+-[MDCPendingAnimation .cxx_destruct]
+_OBJC_IVAR_$_MDCShadowMetrics._topShadowRadius
+_OBJC_IVAR_$_MDCShadowMetrics._topShadowOffset
+_OBJC_IVAR_$_MDCShadowMetrics._topShadowOpacity
+_OBJC_IVAR_$_MDCShadowMetrics._bottomShadowRadius
+_OBJC_IVAR_$_MDCShadowMetrics._bottomShadowOffset
+_OBJC_IVAR_$_MDCShadowMetrics._bottomShadowOpacity
+_emptyShadowMetrics.emptyShadowMetrics
+_emptyShadowMetrics.once
+_OBJC_IVAR_$_MDCShadowLayer._elevation
+_OBJC_IVAR_$_MDCShadowLayer._shadowMaskEnabled
+_OBJC_IVAR_$_MDCShadowLayer._shadowPathIsInvalid
+_OBJC_IVAR_$_MDCShadowLayer._bottomShadow
+_OBJC_IVAR_$_MDCShadowLayer._topShadow
+_OBJC_IVAR_$_MDCShadowLayer._topShadowMask
+_OBJC_IVAR_$_MDCShadowLayer._bottomShadowMask
+_OBJC_IVAR_$_MDCPendingAnimation._animationSourceLayer
+_OBJC_IVAR_$_MDCPendingAnimation._keyPath
+_OBJC_IVAR_$_MDCPendingAnimation._fromValue
+_OBJC_IVAR_$_MDCPendingAnimation._toValue
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/ShadowLayer/src/MDCShadowLayer.m
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/ShadowLayer/src/MDCShadowLayer.h
+__38+[MDCShadowMetrics emptyShadowMetrics]_block_invoke
+-[MDCTabBar initWithCoder:]
+-[MDCTabBar initWithFrame:]
+-[MDCTabBar commonMDCTabBarInit]
+_MDCItemBarAlignmentForTabBarAlignment
+-[MDCTabBar layoutSubviews]
++[MDCTabBar defaultHeightForBarPosition:itemAppearance:]
++[MDCTabBar defaultHeightForItemAppearance:]
+-[MDCTabBar setTitleColor:forState:]
+-[MDCTabBar titleColorForState:]
+-[MDCTabBar setImageTintColor:forState:]
+-[MDCTabBar imageTintColorForState:]
+-[MDCTabBar setDelegate:]
+-[MDCTabBar items]
+-[MDCTabBar setItems:]
+-[MDCTabBar selectedItem]
+-[MDCTabBar setSelectedItem:]
+-[MDCTabBar setSelectedItem:animated:]
+-[MDCTabBar setBarTintColor:]
+-[MDCTabBar setInkColor:]
+-[MDCTabBar setUnselectedItemTitleFont:]
+-[MDCTabBar setSelectedItemTitleFont:]
+-[MDCTabBar setAlignment:]
+-[MDCTabBar setAlignment:animated:]
+-[MDCTabBar setItemAppearance:]
+-[MDCTabBar setSelectedItemTintColor:]
+-[MDCTabBar setUnselectedItemTintColor:]
+-[MDCTabBar displaysUppercaseTitles]
+-[MDCTabBar setDisplaysUppercaseTitles:]
+-[MDCTabBar setTitleTextTransform:]
+-[MDCTabBar setSelectionIndicatorTemplate:]
+-[MDCTabBar setBottomDividerColor:]
+-[MDCTabBar mdf_setSemanticContentAttribute:]
+-[MDCTabBar accessibilityElementForItem:]
+-[MDCTabBar itemBar:didSelectItem:]
+-[MDCTabBar itemBar:shouldSelectItem:]
+-[MDCTabBar tintColorDidChange]
+-[MDCTabBar intrinsicContentSize]
+-[MDCTabBar sizeThatFits:]
+-[MDCTabBar didMoveToWindow]
++[MDCTabBar defaultStyleForPosition:itemAppearance:]
++[MDCTabBar isTopTabsForPosition:]
++[MDCTabBar displaysUppercaseTitlesByDefaultForPosition:]
++[MDCTabBar defaultAlignmentForPosition:]
++[MDCTabBar defaultItemAppearanceForPosition:]
++[MDCTabBar defaultSelectionIndicatorTemplate]
+-[MDCTabBar computedAlignment]
+-[MDCTabBar computedItemAppearance]
+-[MDCTabBar internalSetAlignment:animated:]
+-[MDCTabBar internalSetItemAppearance:]
+-[MDCTabBar updateItemBarPosition]
+-[MDCTabBar updatePositionDerivedDefaultValues]
+-[MDCTabBar updateItemBarStyle]
+-[MDCTabBar alignment]
+-[MDCTabBar barPosition]
+-[MDCTabBar itemAppearance]
+-[MDCTabBar delegate]
+-[MDCTabBar selectedItemTintColor]
+-[MDCTabBar unselectedItemTintColor]
+-[MDCTabBar inkColor]
+-[MDCTabBar bottomDividerColor]
+-[MDCTabBar selectedItemTitleFont]
+-[MDCTabBar unselectedItemTitleFont]
+-[MDCTabBar barTintColor]
+-[MDCTabBar titleTextTransform]
+-[MDCTabBar selectionIndicatorTemplate]
+-[MDCTabBar .cxx_destruct]
+_OBJC_IVAR_$_MDCTabBar._bottomDividerColor
+_OBJC_IVAR_$_MDCTabBar._selectedItemTintColor
+_OBJC_IVAR_$_MDCTabBar._unselectedItemTintColor
+_OBJC_IVAR_$_MDCTabBar._selectedTitleColor
+_OBJC_IVAR_$_MDCTabBar._unselectedTitleColor
+_OBJC_IVAR_$_MDCTabBar._inkColor
+_OBJC_IVAR_$_MDCTabBar._barPosition
+_OBJC_IVAR_$_MDCTabBar._hasDefaultItemAppearance
+_OBJC_IVAR_$_MDCTabBar._hasDefaultAlignment
+_OBJC_IVAR_$_MDCTabBar._alignment
+_OBJC_IVAR_$_MDCTabBar._titleTextTransform
+_OBJC_IVAR_$_MDCTabBar._itemAppearance
+_OBJC_IVAR_$_MDCTabBar._selectionIndicatorTemplate
+_OBJC_IVAR_$_MDCTabBar._selectedItemTitleFont
+_OBJC_IVAR_$_MDCTabBar._unselectedItemTitleFont
+_OBJC_IVAR_$_MDCTabBar._itemBar
+_OBJC_IVAR_$_MDCTabBar._dividerBar
+_OBJC_IVAR_$_MDCTabBar._delegate
+_OBJC_IVAR_$_MDCTabBar._barTintColor
+_OBJC_IVAR_$_MDCTabBar._alignmentOverride
+_OBJC_IVAR_$_MDCTabBar._itemAppearanceOverride
+_kBottomNavigationMaximumItemWidth
+_kBottomNavigationTitleImagePadding
+l_OBJC_PROTOCOL_$_MDCItemBarDelegate
+l_OBJC_LABEL_PROTOCOL_$_MDCItemBarDelegate
+l_OBJC_PROTOCOL_$_UIBarPositioning
+l_OBJC_LABEL_PROTOCOL_$_UIBarPositioning
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/MDCTabBar.m
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/MDCTabBar.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIBarCommon.h
+MDCItemBarAlignmentForTabBarAlignment
+-[MDCTabBarIndicatorAttributes copyWithZone:]
+-[MDCTabBarIndicatorAttributes description]
+-[MDCTabBarIndicatorAttributes isEqual:]
+-[MDCTabBarIndicatorAttributes hash]
+-[MDCTabBarIndicatorAttributes path]
+-[MDCTabBarIndicatorAttributes setPath:]
+-[MDCTabBarIndicatorAttributes .cxx_destruct]
+_OBJC_IVAR_$_MDCTabBarIndicatorAttributes._path
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/MDCTabBarIndicatorAttributes.m
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/MDCTabBarIndicatorAttributes.h
+-[MDCTabBarIndicatorView initWithFrame:]
+-[MDCTabBarIndicatorView initWithCoder:]
+-[MDCTabBarIndicatorView applySelectionIndicatorAttributes:]
+-[MDCTabBarIndicatorView commonMDCTabBarIndicatorViewInit]
+-[MDCTabBarIndicatorView .cxx_destruct]
+-[MDCTabBarIndicatorShapeView path]
+-[MDCTabBarIndicatorShapeView setPath:]
+-[MDCTabBarIndicatorShapeView actionForLayer:forKey:]
++[MDCTabBarIndicatorShapeView layerClass]
+-[MDCTabBarIndicatorShapeView tintColorDidChange]
+_OBJC_IVAR_$_MDCTabBarIndicatorView._shapeView
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/private/MDCTabBarIndicatorView.m
+-[MDCTabBarPrivateIndicatorContext initWithItem:bounds:contentFrame:]
+-[MDCTabBarPrivateIndicatorContext description]
+-[MDCTabBarPrivateIndicatorContext isEqual:]
+-[MDCTabBarPrivateIndicatorContext hash]
+-[MDCTabBarPrivateIndicatorContext bounds]
+-[MDCTabBarPrivateIndicatorContext contentFrame]
+-[MDCTabBarPrivateIndicatorContext item]
+-[MDCTabBarPrivateIndicatorContext .cxx_destruct]
+_OBJC_IVAR_$_MDCTabBarPrivateIndicatorContext._item
+_OBJC_IVAR_$_MDCTabBarPrivateIndicatorContext._bounds
+_OBJC_IVAR_$_MDCTabBarPrivateIndicatorContext._contentFrame
+l_OBJC_PROTOCOL_$_MDCTabBarIndicatorContext
+l_OBJC_LABEL_PROTOCOL_$_MDCTabBarIndicatorContext
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/private/MDCTabBarPrivateIndicatorContext.m
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/MDCTabBarIndicatorContext.h
+-[MDCTabBarUnderlineIndicatorTemplate indicatorAttributesForContext:]
+l_OBJC_PROTOCOL_$_MDCTabBarIndicatorTemplate
+l_OBJC_LABEL_PROTOCOL_$_MDCTabBarIndicatorTemplate
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/MDCTabBarUnderlineIndicatorTemplate.m
++[MDCTabBarShadowView layerClass]
+-[MDCTabBarShadowView initWithFrame:]
+-[MDCTabBarShadowView initWithCoder:]
+-[MDCTabBarShadowView commonMDCTabBarShadowViewInitialization]
+-[MDCTabBarViewController initWithCoder:]
+-[MDCTabBarViewController init]
+-[MDCTabBarViewController initWithNibName:bundle:]
+-[MDCTabBarViewController commonInit]
+-[MDCTabBarViewController viewDidLoad]
+-[MDCTabBarViewController viewDidLayoutSubviews]
+-[MDCTabBarViewController tabBarHidden]
+-[MDCTabBarViewController setTabBarHidden:]
+-[MDCTabBarViewController setTabBarHidden:animated:]
+___52-[MDCTabBarViewController setTabBarHidden:animated:]_block_invoke
+___52-[MDCTabBarViewController setTabBarHidden:animated:]_block_invoke.63
+-[MDCTabBarViewController setViewControllers:]
+-[MDCTabBarViewController updateOldViewControllers:to:]
+-[MDCTabBarViewController updateOldSelectedViewController:to:]
+-[MDCTabBarViewController setSelectedViewController:]
+-[MDCTabBarViewController transitionViewsWithoutAnimationFromViewController:toViewController:]
+-[MDCTabBarViewController updateTabBarItems]
+-[MDCTabBarViewController controllerWithView:]
+-[MDCTabBarViewController updateLayout]
+-[MDCTabBarViewController tabBar:shouldSelectItem:]
+-[MDCTabBarViewController tabBar:didSelectItem:]
+-[MDCTabBarViewController positionForBar:]
+-[MDCTabBarViewController childViewControllerForStatusBarStyle]
+-[MDCTabBarViewController childViewControllerForStatusBarHidden]
+-[MDCTabBarViewController delegate]
+-[MDCTabBarViewController setDelegate:]
+-[MDCTabBarViewController viewControllers]
+-[MDCTabBarViewController selectedViewController]
+-[MDCTabBarViewController tabBar]
+-[MDCTabBarViewController setTabBar:]
+-[MDCTabBarViewController .cxx_destruct]
+_OBJC_IVAR_$_MDCTabBarViewController._tabBarShadow
+_OBJC_IVAR_$_MDCTabBarViewController._viewControllers
+_OBJC_IVAR_$_MDCTabBarViewController._selectedViewController
+_OBJC_IVAR_$_MDCTabBarViewController._tabBar
+_OBJC_IVAR_$_MDCTabBarViewController._tabBarWantsToBeHidden
+___block_descriptor_25_e4_20s_e7_v8@?0c4l
+_OBJC_IVAR_$_MDCTabBarViewController._delegate
+l_OBJC_PROTOCOL_$_UIBarPositioningDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIBarPositioningDelegate
+l_OBJC_PROTOCOL_$_MDCTabBarDelegate
+l_OBJC_LABEL_PROTOCOL_$_MDCTabBarDelegate
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/MDCTabBarViewController.m
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Tabs/src/MDCTabBarViewController.h
+__52-[MDCTabBarViewController setTabBarHidden:animated:]_block_invoke.63
+__52-[MDCTabBarViewController setTabBarHidden:animated:]_block_invoke
++[MDCTypography setFontLoader:]
++[MDCTypography fontLoader]
+___27+[MDCTypography fontLoader]_block_invoke
++[MDCTypography display4Font]
++[MDCTypography display4FontOpacity]
++[MDCTypography display3Font]
++[MDCTypography display3FontOpacity]
++[MDCTypography display2Font]
++[MDCTypography display2FontOpacity]
++[MDCTypography display1Font]
++[MDCTypography display1FontOpacity]
++[MDCTypography headlineFont]
++[MDCTypography headlineFontOpacity]
++[MDCTypography titleFont]
++[MDCTypography titleFontOpacity]
++[MDCTypography subheadFont]
++[MDCTypography subheadFontOpacity]
++[MDCTypography body2Font]
++[MDCTypography body2FontOpacity]
++[MDCTypography body1Font]
++[MDCTypography body1FontOpacity]
++[MDCTypography captionFont]
++[MDCTypography captionFontOpacity]
++[MDCTypography buttonFont]
++[MDCTypography buttonFontOpacity]
++[MDCTypography isLargeForContrastRatios:]
++[MDCTypography italicFontFromFont:]
++[MDCTypography boldFontFromFont:]
++[MDCTypography defaultFontLoader]
+-[MDCSystemFontLoader init]
+-[MDCSystemFontLoader didChangeContentSizeCategory]
+-[MDCSystemFontLoader lightFontOfSize:]
+-[MDCSystemFontLoader regularFontOfSize:]
+-[MDCSystemFontLoader mediumFontOfSize:]
+-[MDCSystemFontLoader boldFontOfSize:]
+-[MDCSystemFontLoader italicFontOfSize:]
+-[MDCSystemFontLoader boldItalicFontOfSize:]
+-[MDCSystemFontLoader isLargeForContrastRatios:]
+-[MDCSystemFontLoader fontCache]
+-[MDCSystemFontLoader setFontCache:]
+-[MDCSystemFontLoader .cxx_destruct]
+_gFontLoader
+_fontLoader.onceToken
+_OBJC_IVAR_$_MDCSystemFontLoader._fontCache
+l_OBJC_PROTOCOL_$_MDCTypographyFontLoading
+l_OBJC_LABEL_PROTOCOL_$_MDCTypographyFontLoading
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Typography/src/MDCTypography.m
+__27+[MDCTypography fontLoader]_block_invoke
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Typography/src/private/MDCTypographyUtilities.m
+GetCurrentSizeCategory
++[UIApplication(AppExtensions) mdc_safeSharedApplication]
+___57+[UIApplication(AppExtensions) mdc_safeSharedApplication]_block_invoke
++[UIApplication(AppExtensions) mdc_isAppExtension]
+___50+[UIApplication(AppExtensions) mdc_isAppExtension]_block_invoke
+_mdc_safeSharedApplication.application
+_mdc_safeSharedApplication.onceToken
+_mdc_isAppExtension.isAppExtension
+_mdc_isAppExtension.onceToken
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/private/Application/src/UIApplication+AppExtensions.m
+__50+[UIApplication(AppExtensions) mdc_isAppExtension]_block_invoke
+__57+[UIApplication(AppExtensions) mdc_safeSharedApplication]_block_invoke
+-[UIFont(MaterialScalable) mdc_scaledFontForSizeCategory:]
+-[UIFont(MaterialScalable) mdc_scaledFontForTraitEnvironment:]
+-[UIFont(MaterialScalable) mdc_scaledFontForCurrentSizeCategory]
+-[UIFont(MaterialScalable) mdc_scaledFontAtDefaultSize]
+-[UIFont(MaterialScalable) mdc_scalingCurve]
+-[UIFont(MaterialScalable) mdc_setScalingCurve:]
+_MDCFontScaleObjectKey
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Typography/src/UIFont+MaterialScalable.m
+-[UIFont(MaterialSimpleEquality) mdc_isSimplyEqual:]
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Typography/src/UIFont+MaterialSimpleEquality.m
++[UIFont(MaterialTypography) mdc_preferredFontForMaterialTextStyle:]
++[UIFont(MaterialTypography) mdc_standardFontForMaterialTextStyle:]
+___67+[UIFont(MaterialTypography) mdc_standardFontForMaterialTextStyle:]_block_invoke
+-[UIFont(MaterialTypography) mdc_fontSizedForMaterialTextStyle:scaledForDynamicType:]
+_mdc_standardFontForMaterialTextStyle:.fontCache
+_mdc_standardFontForMaterialTextStyle:.onceToken
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Typography/src/UIFont+MaterialTypography.m
+__67+[UIFont(MaterialTypography) mdc_standardFontForMaterialTextStyle:]_block_invoke
++[UIFont(MaterialTypographyPrivate) mdc_fontWeightDescription:]
+-[UIFont(MaterialTypographyPrivate) mdc_weight]
+-[UIFont(MaterialTypographyPrivate) mdc_slant]
+-[UIFont(MaterialTypographyPrivate) mdc_weightString]
+-[UIFont(MaterialTypographyPrivate) mdc_extendedDescription]
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Typography/src/private/UIFont+MaterialTypographyPrivate.m
++[UIFontDescriptor(MaterialTypography) mdc_fontDescriptorForMaterialTextStyle:sizeCategory:]
+___92+[UIFontDescriptor(MaterialTypography) mdc_fontDescriptorForMaterialTextStyle:sizeCategory:]_block_invoke
++[UIFontDescriptor(MaterialTypography) mdc_preferredFontDescriptorForMaterialTextStyle:]
++[UIFontDescriptor(MaterialTypography) mdc_standardFontDescriptorForMaterialTextStyle:]
+_mdc_fontDescriptorForMaterialTextStyle:sizeCategory:.smallSystemFontFamilyName
+_mdc_fontDescriptorForMaterialTextStyle:sizeCategory:.largeSystemFontFamilyName
+_mdc_fontDescriptorForMaterialTextStyle:sizeCategory:.onceToken
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/Typography/src/UIFontDescriptor+MaterialTypography.m
+__92+[UIFontDescriptor(MaterialTypography) mdc_fontDescriptorForMaterialTextStyle:sizeCategory:]_block_invoke
++[UIView(MDCTimingFunction) mdc_animateWithTimingFunction:duration:delay:options:animations:completion:]
+/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/platforms/ios/Pods/MaterialComponents/components/AnimationTiming/src/UIView+MDCTimingFunction.m
+/Users/misiak/Library/Developer/Xcode/DerivedData/arvuedemo-bvxldfujpguyqtayqpjvdhkiines/Build/Intermediates.noindex/ArchiveIntermediates/arvuedemo/IntermediateBuildFilesPath/Pods.build/Debug-iphoneos/MaterialComponents.build/DerivedSources/MaterialComponents_vers.c

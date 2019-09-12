@@ -1,0 +1,6 @@
+framework module Pods_arvuedemo {
+  umbrella header "Pods-arvuedemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

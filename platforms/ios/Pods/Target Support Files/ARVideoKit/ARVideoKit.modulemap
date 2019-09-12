@@ -1,0 +1,6 @@
+framework module ARVideoKit {
+  umbrella header "ARVideoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

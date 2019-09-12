@@ -1,0 +1,26 @@
+{
+	"tns-core-modules": {
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.h": "61d5332c711cc0ac62e0194e18077d2ff5293b11",
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/tns-core-modules/platforms/ios/src/module.modulemap": "be8f57fbde98eb6950cdd245ff5021d7d8aa75e2",
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/tns-core-modules/platforms/ios/Podfile": "cf99ce1ea2f40ade418826e909fd4e67f7034d17",
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.m": "95f2f41d1868f418dd79a418c30a1c2ac85829f6",
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/tns-core-modules/platforms/ios/typings/objc!MaterialComponents.d.ts": "6e22ade7ce74eea47dc88478166c1fa7a4b2d3a0"
+	},
+	"tns-core-modules-widgets": {
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSProcess.h": "787f09c57ede174d6323990e6d6e9eaf134da6f0",
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSWidgets.h": "f1435d046b4a9dd5d631db5ba5c9ddff04ee4bc3",
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSLabel.h": "c7c5788d3ea834d96cf8a137cbf0c4ea28fd7829",
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/UIImage+TNSBlocks.h": "3b31a5be818e25c142e99f98479c538632d350ae",
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Modules/module.modulemap": "00d2220e76eb098f1808eb4e9b5c43ad4cadf1da",
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Info.plist": "e6c4b9015b3db318650e0edca4077cedd7fc2253",
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/UIView+PassThroughParent.h": "cddc4157f40983b34fcb1d3846666b5ecc5b1ca5",
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/TNSWidgets": "9d7101d457c427cee22942a97a406aa55b2de3b5"
+	},
+	"nativescript-ar": {
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/nativescript-ar/platforms/ios/Info.plist": "bb79e0568147724214ddf58a826b30c8e717c2d4",
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/nativescript-ar/platforms/ios/Podfile": "e09128e5153bf5ee33b854261782acdf579e7f51"
+	},
+	"nativescript-camera": {
+		"/Users/misiak/Desktop/2019/Summer/ar-upgrade/ar-vue-demo/node_modules/nativescript-camera/platforms/ios/Info.plist": "7ac0e3ce185cd23c52d97becfdfdee212d2290c0"
+	}
+}

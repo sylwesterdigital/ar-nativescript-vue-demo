@@ -1,0 +1,32 @@
+{
+  "nativescript": {
+    "id": "org.nativescript.arvuedemo",
+    "tns-android": {
+      "version": "6.1.0"
+    },
+    "tns-ios": {
+      "version": "6.1.0"
+    }
+  },
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "repository": "<fill-your-repository-here>",
+  "dependencies": {
+    "nativescript-ar": "^0.8.1",
+    "nativescript-camera": "^4.5.0",
+    "nativescript-theme-core": "~1.0.6",
+    "nativescript-vue": "~2.4.0",
+    "tns-core-modules": "~6.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.1.0",
+    "@babel/preset-env": "~7.1.0",
+    "babel-loader": "~8.0.0",
+    "nativescript-dev-webpack": "~1.2.0",
+    "nativescript-vue-template-compiler": "~2.4.0",
+    "node-sass": "^4.7.1",
+    "vue-loader": "~15.4.0"
+  },
+  "gitHead": "12284faf57b80a564bca5377e12c149c89d282c3",
+  "readme": "NativeScript Application"
+}

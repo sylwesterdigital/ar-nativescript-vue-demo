@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/arvuedemo.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>org.nativescript.arvuedemo</string>
+		<key>CFBundleShortVersionString</key>
+		<string>1.0</string>
+		<key>CFBundleVersion</key>
+		<string>1.0</string>
+		<key>SigningIdentity</key>
+		<string>iPhone Developer: Sylwester Mielniczuk (F7K9RLSWY7)</string>
+		<key>Team</key>
+		<string>5P9V78UZAC</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2019-09-12T22:03:17Z</date>
+	<key>Name</key>
+	<string>arvuedemo</string>
+	<key>SchemeName</key>
+	<string>arvuedemo</string>
+</dict>
+</plist>
