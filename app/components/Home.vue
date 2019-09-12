@@ -1,12 +1,12 @@
 <template>
   <Page class="page">
     <GridLayout class="page-content">
-        <AR v-if="loaded"
-         :detectPlanes="true"
-         :debugLevel="FEATURE_POINTS"
-         :showStatistics="true"
-         @planeDetected="showAlert"
-         @planeTapped="onPlaneTapped">
+        <AR
+          :detectPlanes="true"
+          :debugLevel="FEATURE_POINTS"
+          :showStatistics="true"
+          @planeDetected="showAlert"
+          @planeTapped="onPlaneTapped">
         </AR>  
     </GridLayout>
   </Page>
@@ -16,10 +16,14 @@
   import { Color } from "tns-core-modules/color"
   import { AR, ARMaterial } from "nativescript-ar"
   import * as camera from "nativescript-camera";
+  
+/*
   import * as utils from "~/shared/utils";
   import SelectedPageService from "../shared/selected-page-service";  
+*/
 
   export default {
+    
     data() {
       return {
         loaded: false,
@@ -32,18 +36,15 @@
         }
       }
     },
+    
     mounted() {
-      SelectedPageService.getInstance().updateSelectedPage("Home");
+/*      SelectedPageService.getInstance().updateSelectedPage("Home");
       setTimeout(() => {
         console.log('   - - - Loaded')
         this.loaded = true;
-      }, 1000);      
+      }, 1000); */     
     },
-    computed: {
-      message() {
-        return "<!-- Page content goes here -->";
-      }
-    },
+    
     methods: {
       showAlert () {
         if (this.alerted) return;
@@ -91,13 +92,13 @@
             }
           });  */      
           ar.addModel({
-            name: "Models.scnassets/Gyro1.dae",
+            name: "Models.scnassets/Walking.dae",
             position: {
               x: args.position.x,
               y: args.position.y,
               z: args.position.z
             },
-            scale: 0.1,
+            scale: 0.001,
             mass: 0
 //            onTap: (interaction: ARNodeInteraction) => {
 //                console.log("sphere tapped: " + interaction.node.id + " at " + interaction.touchPosition);

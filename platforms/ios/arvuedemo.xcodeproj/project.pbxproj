@@ -87,13 +87,6 @@
 			name = "tns-core-modules";
 			sourceTree = "<group>";
 		};
-		5310F2D235634A9AB73E2D61 /* TNSNativeSource */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = TNSNativeSource;
-			sourceTree = "<group>";
-		};
 		858B832518CA111C00AB12DE = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +94,9 @@
 				858B833718CA111C00AB12DE /* arvuedemo */,
 				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
-				5310F2D235634A9AB73E2D61 /* TNSNativeSource */,
 				52BA08C4E66E4536AB960816 /* tns-core-modules */,
 				E084C505C465F07F07AE8A2F /* Pods */,
+				3DEBE2A79C814F82955BCD4A /* TNSNativeSource */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,6 +166,13 @@
 			);
 			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		3DEBE2A79C814F82955BCD4A /* TNSNativeSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TNSNativeSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -466,6 +466,8 @@
 					"\"$(SRCROOT)/internal\"",
 					"\"$(SRCROOT)/../../app/App_Resources/iOS/src\"",
 					"\"$(SRCROOT)/../../node_modules/tns-core-modules/platforms/ios/src\"",
+					"\"$(SRCROOT)/../../app/App_Resources/iOS/src\"",
+					"\"$(SRCROOT)/../../app/App_Resources/iOS/src\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/arvuedemo/arvuedemo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -494,6 +496,8 @@
 					"$(SRCROOT)/internal",
 					"\"$(SRCROOT)/../../app/App_Resources/iOS/src\"",
 					"\"$(SRCROOT)/../../node_modules/tns-core-modules/platforms/ios/src\"",
+					"\"$(SRCROOT)/../../app/App_Resources/iOS/src\"",
+					"\"$(SRCROOT)/../../app/App_Resources/iOS/src\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/arvuedemo/arvuedemo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
