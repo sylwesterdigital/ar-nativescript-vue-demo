@@ -1,6 +1,6 @@
 <template>
   <Page class="page">
-    <GridLayout class="page-content" columns="*" rows="*,80">>
+    <GridLayout class="page-content" columns="*" rows="*,200">>
         <AR row="0" col="0" rowSpan="2"
           detectPlanes="true"
           debugLevel="FEATURE_POINTS"
@@ -13,7 +13,10 @@
           @planeDetected="showAlert"
           @planeTapped="onPlaneTapped">
         </AR>
-        <Button row="1" col="0" @tap="shareDemo" :text="shareButtonText"></Button>   
+        <ListPicker row="1" col="0"
+        :items="listOfTrackingModes"
+        selectedIndex="0"
+        @selectedIndexChange="onSelectedTrackingModeChanged" />
     </GridLayout>
   </Page>
 </template>
@@ -42,7 +45,8 @@
           diffuse: new Color("white"),
           transparency: 0.0
         },
-        trackingMode: "IMAGE", // "WORLD" , "IMAGE", "FACE"
+        trackingMode: "WORLD", // "WORLD" , "IMAGE", "FACE"
+        listOfTrackingModes: ["WORLD" , "IMAGE", "FACE"],
         trackingImagesBundle: "AR Resources"
       }
     },
@@ -56,6 +60,13 @@
     },
     
     methods: {
+      
+      onSelectedTrackingModeChanged(e) {
+        this.trackingMode = this.listOfTrackingModes[e.value];
+        console.log("Mode Change: ",this.trackingMode)
+        
+      },
+      
       shareDemo() {
         console.log('share demo');
         
@@ -82,6 +93,7 @@
       onTrackingImageDetected(ev) {
         console.log(' !! * TRACKING IMAGE DETECTED * ');
         console.dir(ev.position);
+        
         
       },
       
@@ -167,11 +179,19 @@
     // Start custom common variables
     @import '../app-variables';
     // End custom common variables
+  
+  
     // Custom styles
     .fa {
         color: $accent-dark;
     }
+  
     .info {
         font-size: 20;
     }
+  
+  
+  
+    
+  
 </style>
