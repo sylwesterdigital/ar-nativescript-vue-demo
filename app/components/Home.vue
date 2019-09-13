@@ -1,18 +1,25 @@
 <template>
   <Page class="page">
-    <GridLayout class="page-content">
-        <AR
-          :detectPlanes="true"
-          :debugLevel="FEATURE_POINTS"
-          :showStatistics="true"
+    <GridLayout class="page-content" columns="*" rows="*,80">>
+        <AR row="0" col="0" rowSpan="2"
+          detectPlanes="true"
+          debugLevel="FEATURE_POINTS"
+          showStatistics="true"
+          :trackingMode="trackingMode"
+          :trackingImagesBundle="trackingImagesBundle"
+          @trackingFaceDetected="onTrackingFaceDetected"
+          @trackingImageDetected="onTrackingImageDetected"
+          @arLoaded="onARLoaded"
           @planeDetected="showAlert"
           @planeTapped="onPlaneTapped">
-        </AR>  
+        </AR>
+        <Button row="1" col="0" @tap="shareDemo" :text="shareButtonText"></Button>   
     </GridLayout>
   </Page>
 </template>
 
 <script>
+  
   import { Color } from "tns-core-modules/color"
   import { AR, ARMaterial } from "nativescript-ar"
   import * as camera from "nativescript-camera";
@@ -26,6 +33,7 @@
     
     data() {
       return {
+        shareButtonText: "Share",
         loaded: false,
         alerted: false,
         detectPlanes: true,
@@ -33,7 +41,9 @@
         planeMaterial: {
           diffuse: new Color("white"),
           transparency: 0.0
-        }
+        },
+        trackingMode: "IMAGE", // "WORLD" , "IMAGE", "FACE"
+        trackingImagesBundle: "AR Resources"
       }
     },
     
@@ -46,6 +56,10 @@
     },
     
     methods: {
+      shareDemo() {
+        console.log('share demo');
+        
+      },      
       showAlert () {
         if (this.alerted) return;
         this.alerted = true;
@@ -59,6 +73,24 @@
         }
         return color;
       },
+      
+      onARLoaded() {
+        console.log(' * AR LOADED * ');
+        
+      },
+      
+      onTrackingImageDetected(ev) {
+        console.log(' !! * TRACKING IMAGE DETECTED * ');
+        console.dir(ev.position);
+        
+      },
+      
+      onTrackingFaceDetected() {
+        console.log(' !! * * FACE DETECTED')
+        
+        
+      },
+      
       onPlaneTapped(args) {
         const ar = args.object;
 /*        ar.addBox({
@@ -99,17 +131,16 @@
               z: args.position.z
             },
             scale: 0.001,
-            mass: 0
-//            onTap: (interaction: ARNodeInteraction) => {
-//                console.log("sphere tapped: " + interaction.node.id + " at " + interaction.touchPosition);
-//                // let's rotate the box 5 degrees to the right
-//                interaction.node.rotateBy({
-//                  x: 0,
-//                  y: 0,
-//                  z: -5
-//                });
-//              },
-//              onLongPress: (interaction: ARNodeInteraction) => {
+            mass: 0,
+            onTap: (interaction) => {
+                console.log("sphere tapped: " + interaction.node.id + " at " + interaction.touchPosition);
+                interaction.node.rotateBy({
+                  x: 0,
+                  y: 10,
+                  z: 0
+                });
+              },
+//              onLongPress: (interaction) => {
 //                console.log("sphere longpressed: " + interaction.node.id + " at " + interaction.touchPosition);
 //                // let's rotate the box 5 degrees to the left
 //                interaction.node.rotateBy({
@@ -130,6 +161,8 @@
     }
   };
 </script>
+
+
 <style scoped lang="scss">
     // Start custom common variables
     @import '../app-variables';
